@@ -24,7 +24,7 @@ function badges(p) {
 }
 function productCard(p) {
   const s = stockState(p);
-  return `<article class="product-card reveal"><a href="product.html?id=${encodeURIComponent(p.id)}"><div class="product-media"><img src="${p.images[0]}" alt="${p.name}"><div class="badges">${badges(p)}</div></div><div class="card-body"><div class="product-name">${p.name}</div><div class="price-row"><span class="price">${money(p.price)}</span><span class="stock ${s.cls}">${s.txt}</span></div><button class="btn-soft">View Squishy ♡</button><div class="rating"><span class="stars">★★★★★</span> ${p.rating} · ${p.reviews} reviews</div></div></a></article>`;
+  return `<article class="product-card reveal"><a href="product.html?id=${encodeURIComponent(p.id)}"><div class="product-media"><img src="${p.images[0]}" alt="${p.name}"><div class="badges">${badges(p)}</div></div><div class="card-body"><div class="product-name">${p.name}</div><div class="price-row"><span class="price">${money(p.price)}</span><span class="stock ${s.cls}">${s.txt}</span></div><button class="btn-soft">View Squishy ♡</button></div></a></article>`;
 }
 function header() {
   const page = (location.pathname.split("/").pop() || "index.html").replace(
