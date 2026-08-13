@@ -168,7 +168,7 @@ window.COZY_PRODUCTS = [
   {
     "id": "soap-crunchy",
     "name": "Viral Crunchy Soap",
-    "price": 5.8,
+    "price": 6,
     "qty": 6,
     "cat": "crunchy",
     "badges": [],
