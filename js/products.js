@@ -27,8 +27,8 @@ window.COZY_PRODUCTS = [
     "preorder": false
   },
   {
-    "id": "peanut-cheese",
-    "name": "*Instock* Viral Crunchy Peanut",
+    "id": "crunchy-cheese",
+    "name": "*Instock* Viral Crunchy Cheese 7cm",
     "price": 8,
     "qty": 5,
     "cat": "Crunchy",
@@ -125,11 +125,11 @@ window.COZY_PRODUCTS = [
     "color": "#c9a7f2",
     "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
     "images": [
-      "assets/products/crunchys-1.jpg",
+      "assets/products/6crunchys-0.jpg",
+      "assets/products/soap-2.jpg",
       "assets/products/6crunchys-1.jpg",
       "assets/products/6crunchys-2.jpg",
       "assets/products/6crunchys-3.jpg",
-      "assets/products/soap-1.jpg",
       "assets/products/pudding-1.jpg"
 
     ],
@@ -155,13 +155,7 @@ window.COZY_PRODUCTS = [
     "images": [
       "assets/products/crunchys-1.jpg",
       "assets/products/crunchys-2.jpg",
-      "assets/products/crunchys-5.jpg",
-      "assets/products/crunchys-6.jpg",
-      "assets/products/crunchys-7.jpg",
-      "assets/products/crunchys-8.jpg",
-      "assets/products/crunchys-9.jpg",
-      "assets/products/crunchys-10.jpg",
-      "assets/products/crunchys-11.jpg"
+      "assets/products/crunchys-3.jpg"
 
     ],
     "rating": 4.6,
@@ -173,7 +167,7 @@ window.COZY_PRODUCTS = [
   },
   {
     "id": "crunchys8",
-    "name": "$8 Viral Crunchy Squishies Multi Color & Design",
+    "name": "$8-$9 Viral Crunchy Squishies Multi Color & Design",
     "price": 8,
     "qty": 0,
     "cat": "Crunchy",
@@ -181,16 +175,10 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
+    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days<br> Crunchy cheese 7cm- $9",
     "images": [
-      "assets/products/crunchys-1.jpg",
-      "assets/products/8crunchys-1.jpg",
-      "assets/products/8crunchys-2.jpg",
-      "assets/products/8crunchys-5.jpg",
-      "assets/products/8crunchys-4.jpg",
-      "assets/products/8crunchys-6.jpg",
-      "assets/products/8crunchys-7.jpg",
-      "assets/products/8crunchys-8.jpg",
+      "assets/products/8crunchys-0.jpg",
+      "assets/products/8crunchys-01.jpg"
 
     ],
     "rating": 4.6,
@@ -198,98 +186,6 @@ window.COZY_PRODUCTS = [
     "featured": false,
     "new": false,
     "viral": true,
-    "preorder": true
-  },{
-    "id": "hello-kitty-pink",
-    "name": "Large Hello Kitty Pink Squishy",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#f6a8c7",
-    "desc": "Cute Pink Hello Kitty Squishy <br> - Large Size <br>- Available in Pink color only",
-    "images": [
-      "assets/products/hellokitty-1.jpeg",
-      "assets/products/hellokitty-2.jpeg",
-      "assets/products/hellokitty-3.jpeg"
-    ],
-    "rating": 0,
-    "reviews": 0,
-    "featured": true,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "cat-paw-soft",
-    "name": "Large Cat Paw Soft Squishy",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#ffe29a",
-    "desc": "Cloud-soft cat paw squishy with a gentle rebound.<br> Available in 2 colors. <br>- Baby Pink<br>- Baby Yellow",
-    "images": [
-      "assets/products/paws-yellow.jpeg",
-      "assets/products/paws-pink.jpeg"
-    ],
-    "rating": 4.9,
-    "reviews": 21,
-    "featured": true,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "squishy-cake-box",
-    "name": "Squishy Cake Box",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#ffb2c9",
-    "desc": "Squishy cake in a cute box. Slow rise, scented & sticky style.",
-    "images": [
-      "assets/products/cakes-pink.jpg",
-      "assets/products/cakes-blue.jpeg",
-      "assets/products/cakes-yellow.jpg",
-      "assets/products/cakes-purple.jpg",
-      "assets/products/cakes.jpg",
-    ],
-    "rating": 4.6,
-    "reviews": 24,
-    "featured": true,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "toast",
-    "name": "Toasty Squishy",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#ff9ea8",
-    "desc": "Sweet strawberry cake squishy with soft whipped-cream details.",
-    "images": [
-      "assets/products/toast-2.jpeg",
-      "assets/products/toast-1.jpg",
-      "assets/products/toast-3.jpg"
-    ],
-    "rating": 4.7,
-    "reviews": 27,
-    "featured": true,
-    "new": false,
-    "viral": false,
     "preorder": true
   },
   {
@@ -390,6 +286,98 @@ window.COZY_PRODUCTS = [
     "featured": false,
     "new": false,
     "viral": true,
+    "preorder": true
+  },{
+    "id": "hello-kitty-pink",
+    "name": "Large Hello Kitty Pink Squishy",
+    "price": 5.5,
+    "qty": 0,
+    "cat": "Animals",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#f6a8c7",
+    "desc": "Cute Pink Hello Kitty Squishy <br> - Large Size <br>- Available in Pink color only",
+    "images": [
+      "assets/products/hellokitty-1.jpeg",
+      "assets/products/hellokitty-2.jpeg",
+      "assets/products/hellokitty-3.jpeg"
+    ],
+    "rating": 0,
+    "reviews": 0,
+    "featured": true,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "cat-paw-soft",
+    "name": "Large Cat Paw Soft Squishy",
+    "price": 5.5,
+    "qty": 0,
+    "cat": "Animals",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#ffe29a",
+    "desc": "Cloud-soft cat paw squishy with a gentle rebound.<br> Available in 2 colors. <br>- Baby Pink<br>- Baby Yellow",
+    "images": [
+      "assets/products/paws-yellow.jpeg",
+      "assets/products/paws-pink.jpeg"
+    ],
+    "rating": 4.9,
+    "reviews": 21,
+    "featured": true,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "squishy-cake-box",
+    "name": "Squishy Cake Box",
+    "price": 5.5,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#ffb2c9",
+    "desc": "Squishy cake in a cute box. Slow rise, scented & sticky style.",
+    "images": [
+      "assets/products/cakes-pink.jpg",
+      "assets/products/cakes-blue.jpeg",
+      "assets/products/cakes-yellow.jpg",
+      "assets/products/cakes-purple.jpg",
+      "assets/products/cakes.jpg",
+    ],
+    "rating": 4.6,
+    "reviews": 24,
+    "featured": true,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "toast",
+    "name": "Toasty Squishy",
+    "price": 5.5,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#ff9ea8",
+    "desc": "Sweet strawberry cake squishy with soft whipped-cream details.",
+    "images": [
+      "assets/products/toast-2.jpeg",
+      "assets/products/toast-1.jpg",
+      "assets/products/toast-3.jpg"
+    ],
+    "rating": 4.7,
+    "reviews": 27,
+    "featured": true,
+    "new": false,
+    "viral": false,
     "preorder": true
   },
   {
