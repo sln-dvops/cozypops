@@ -28,15 +28,15 @@ window.COZY_PRODUCTS = [
   },
   {
     "id": "crunchy-cheese",
-    "name": "*Instock* Viral Crunchy Cheese 7cm",
+    "name": "Viral Crunchy Cheese 7cm",
     "price": 8,
-    "qty": 5,
+    "qty": 0,
     "cat": "Crunchy",
     "badges": [
       "viral"
     ],
     "color": "#d6a45e",
-    "desc": "Instock!! Crunchy cheese squishy with a textured shell and satisfying squeeze.",
+    "desc": "*SOLD* Preorder Available Crunchy cheese squishy with a textured shell and satisfying squeeze.",
     "images": [
       "assets/products/8crunchys-4.jpg"
     ],
@@ -50,15 +50,15 @@ window.COZY_PRODUCTS = [
   
   {
     "id": "peanut-crunchy",
-    "name": "*Instock* Viral Crunchy Peanut",
+    "name": "Viral Crunchy Peanut",
     "price": 7,
-    "qty": 5,
+    "qty": 0,
     "cat": "Crunchy",
     "badges": [
       "viral"
     ],
     "color": "#d6a45e",
-    "desc": "Instock!! Crunchy peanut squishy with a textured shell and satisfying squeeze.",
+    "desc": "SOLD!! Preorder available. Crunchy peanut squishy with a textured shell and satisfying squeeze.",
     "images": [
       "assets/products/peanut-1.jpg",
       "assets/products/peanut-2.jpg"
@@ -167,7 +167,7 @@ window.COZY_PRODUCTS = [
   },
   {
     "id": "crunchys8",
-    "name": "$8-$9 Viral Crunchy Squishies Multi Color & Design",
+    "name": "$8 Viral Crunchy Squishies Multi Color & Design",
     "price": 8,
     "qty": 0,
     "cat": "Crunchy",
@@ -175,7 +175,7 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days<br> Crunchy cheese 7cm- $9",
+    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
     "images": [
       "assets/products/8crunchys-0.jpg",
       "assets/products/8crunchys-01.jpg"
