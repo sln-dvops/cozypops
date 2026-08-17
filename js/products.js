@@ -191,7 +191,7 @@ window.COZY_PRODUCTS = [
   {
     "id": "jellycheese",
     "name": "Colorful Vaseline Jelly Cheese",
-    "price": 12,
+    "price": 11,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
@@ -215,14 +215,14 @@ window.COZY_PRODUCTS = [
   {
     "id": "vaselinecheese",
     "name": "Viral Vaseline Cheese",
-    "price": 8.9,
+    "price": 8,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>6 cm ($8.90)<br>7cm (11.90)<br> Just $18 for both <br>- Pink Cheese<br>- Yellow Cheese ",
+    "desc": "Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>6 cm ($8)<br>7cm ($11)<br>- Pink Cheese<br>- Yellow Cheese ",
     "images": [
       "assets/products/vaselinecheese-2.jpg",
       "assets/products/vaselinecheese-1.jpg",
@@ -251,7 +251,6 @@ window.COZY_PRODUCTS = [
     "images": [
       "assets/products/coconutoilball.jpg",
       "assets/products/coconutoilball-1.jpg",
-      "assets/products/coconutoilball-2.jpg",
       "assets/products/coconutoilball-3.jpg",
       "assets/products/coconutoilball-4.jpg",
       "assets/products/coconutoilball-5.jpg"
@@ -438,10 +437,8 @@ window.COZY_PRODUCTS = [
     "images": [
       "assets/products/seal-1.jpg",
       "assets/products/seal-2.jpg",
-      "assets/products/seal-3.jpg",
       "assets/products/seal-4.jpg",
       "assets/products/seal-6.jpg",
-      "assets/products/seal-7.jpg",
       "assets/products/seal-9.jpg"
     ],
     "rating": 4.6,
@@ -689,7 +686,7 @@ window.COZY_PRODUCTS = [
   {
     "id": "hachimi-bigloaf",
     "name": "Hachimi Extra Large Loaf Squishy",
-    "price": 18,
+    "price": 16,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
