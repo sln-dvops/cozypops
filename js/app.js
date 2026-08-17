@@ -1,5 +1,5 @@
 const CONFIG = {
-  telegramUrl: "https://t.me/YOUR_USERNAME",
+  telegramUrl: "https://t.me/ng_999a",
   tiktokUrl: "https://www.tiktok.com/@cozypops01",
   announcement: "[Limited Time Only] 🎀 Free shipping + Freebies for orders $30 and above!",
 };
