@@ -1,9 +1,37 @@
 window.COZY_PRODUCTS = [
   {
+    "id": "slowrise-breads",
+    "name": "$8-$12 Slow Rise Squishy Brands",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Sweet, Cute and soft slow rise squishies!!<br>Preorder Available, wt time 7-8 days<br>Please dm me for more details <3",
+    "images": [
+      "assets/products/10-slowrise-6.jpg",
+      "assets/products/10-slowrise-0.jpg",
+      "assets/products/10-slowrise-01.jpg",
+      "assets/products/10-slowrise-5.jpg",
+      "assets/products/10-slowrise-7.jpg",
+      "assets/products/10-slowrise-8.jpg",
+      "assets/products/10-slowrise-9.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": true,
+    "preorder": true
+  },
+  {
     "id": "smushers-high-quality",
-    "name": "*Instock* Smushers",
+    "name": "Smushers",
     "price": 8.0,
-    "qty": 10,
+    "qty": 0,
     "cat": "Animals",
     "badges": [
       "viral",
