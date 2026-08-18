@@ -1,5 +1,28 @@
 window.COZY_PRODUCTS = [
   {
+    "id": "cheese-cake",
+    "name": "2 for $5 mini cheese cake",
+    "price": 5,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Scented, cute and soft slow rise mini cheese cake !!<br>Preorder Available, wt time 7-8 days<br>Please dm me for more details <3",
+    "images": [
+      "assets/products/cheesecake.jpg",
+      "assets/products/cheesecake-1.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": true,
+    "preorder": true
+  },
+  {
     "id": "slowrise-breads",
     "name": "$8-$12 Slow Rise Squishy Brands",
     "price": 8,
