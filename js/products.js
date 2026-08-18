@@ -4,7 +4,7 @@ window.COZY_PRODUCTS = [
     "name": "2 for $5 mini cheese cake",
     "price": 5,
     "qty": 0,
-    "cat": "Crunchy",
+    "cat": "Food Squishies",
     "badges": [
       "preorder"
     ],
@@ -19,7 +19,7 @@ window.COZY_PRODUCTS = [
     "reviews": 72,
     "featured": false,
     "new": false,
-    "viral": true,
+    "viral": false,
     "preorder": true
   },
   {
@@ -27,7 +27,7 @@ window.COZY_PRODUCTS = [
     "name": "$8-$12 Slow Rise Squishy Brands",
     "price": 8,
     "qty": 0,
-    "cat": "Crunchy",
+    "cat": "Food Squishies",
     "badges": [
       "preorder"
     ],
