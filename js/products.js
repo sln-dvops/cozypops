@@ -264,15 +264,15 @@ window.COZY_PRODUCTS = [
   },
   {
     "id": "slushball",
-    "name": "Slushy Ball Collections",
-    "price": 10,
+    "name": "2 for $15 Slushy Ball Collections",
+    "price": 8,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Viral Slushy Balls <br> Available for PREORDER wt time 7-8 days<br>- Kiwi<br>- Watermelon<br>- Passion Fruit ",
+    "desc": "2 for $15 viral Slushy Balls <br> Available for PREORDER wt time 7-8 days<br>- Kiwi<br>- Watermelon<br>- Passion Fruit ",
     "images": [
       "assets/products/slushball-1.jpg",
       "assets/products/slushball-2.jpg",
@@ -503,7 +503,7 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Butter Stick Extra Large & Small <br> Available for PREORDER wt time 7-8 days<br>- small butter stick ($5.50) <br>- Jumbo Butter Stick ($12.50) ",
+    "desc": "Hachimi Japanese Brand Soft Slow rise Butter Stick Extra Large & Small <br> Available for PREORDER wt time 7-8 days<br>- small butter stick ($5.50) <br>- Jumbo Butter Stick ($11) ",
     "images": [
       "assets/products/butter-1.jpg",
       "assets/products/butter-2.jpg",
