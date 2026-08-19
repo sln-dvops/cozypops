@@ -1,5 +1,304 @@
 window.COZY_PRODUCTS = [
   {
+    "id": "chinasmush",
+    "name": "Big Mouth China Smushers",
+    "price": 6,
+    "qty": 0,
+    "cat": "Animals",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Big Mouth ChinaSmushers <br>Preorder Available, wt time 7-8 days<br>Available in 4 colors<3<br>- white- yellow- blue- pink",
+    "images": [
+      "assets/products/chinasmush-1.jpg",
+      "assets/products/chinasmush-2.jpg",
+      "assets/products/chinasmush-3.jpg",
+      "assets/products/chinasmush-4.jpg",
+      "assets/products/chinasmush-5.jpg",
+      "assets/products/chinasmush-6.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "brain",
+    "name": "Giant Brain Foam Squishy",
+    "price": 12,
+    "qty": 0,
+    "cat": "Animals",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Crispy moldable balls come with small air pump <br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "images": [
+      "assets/products/brain-1.jpg",
+      "assets/products/brain-2.jpg",
+      "assets/products/brain-3.jpg",
+      "assets/products/brain-4.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "jumbo",
+    "name": "14-45cm Jumbo Fruit Squishies",
+    "price": 14,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "$14-$20 Price Range Price may vary from each item.<br>Please dm me for more details.<3",
+    "images": [
+      "assets/products/jumbofruits-1.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "pineapple",
+    "name": "Large Pineapple Bun",
+    "price": 8,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Viral Large Pineapple Bun <br>Preorder Available, wt time 7-8 days<br>Available in pink as well.",
+    "images": [
+      "assets/products/pineapple-1.jpg",
+      "assets/products/pineapple-2.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "burger",
+    "name": "Sticky, Peelable Realistic Burgers Boxed",
+    "price": 12,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Slow rise, Sticky, Peelable Burgers<br>( The seeds may fall off while playing )<br> Prices vary from different designs. <br>Preorder Available, wt time 7-8 days<br>Available in different designs as shown <3",
+    "images": [
+      "assets/products/burger-1.jpg",
+      "assets/products/burger-2.jpg",
+      "assets/products/burger-3.jpg",
+      "assets/products/burger-4.jpg",
+      "assets/products/burger-5.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "ballset",
+    "name": "$8 for a pack of 6 different squishy balls (4cm)",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "2 packs for $15 different textured handmade balls.<br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "images": [
+      "assets/products/ballset-1.jpg",
+      "assets/products/ballset-2.jpg",
+      "assets/products/ballset-5.jpg",
+      "assets/products/ballset-6.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "snowball",
+    "name": "Frozen snow sound 6cm sugar stress ball",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Frozen snow sound sugar stress ball 6 cm<br>Preorder Available, wt time 7-8 days",
+    "images": [
+      "assets/products/snow-1.jpg",
+      "assets/products/snow-2.jpg",
+      "assets/products/snow-3.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "clearball",
+    "name": "6cm crystal Clear Fruit Balls",
+    "price": 10,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Crystal Clear fruit balls <br>Preorder Available, wt time 7-8 days<br>Available in 5 fruits <3<br>- Tomato<br>- Kiwi<br>- Strawberry<br>- Lychee<br>- Blueberry",
+    "images": [
+      "assets/products/clearball-1.jpg",
+      "assets/products/clearball-2.jpg",
+      "assets/products/clearball-3.jpg",
+      "assets/products/clearball-4.jpg",
+      "assets/products/clearball-5.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "jellyfruit",
+    "name": "Fruit Jelly Bar",
+    "price": 10,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "2 packs for $15 different textured handmade balls.<br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "images": [
+      "assets/products/fruitjelly-1.jpg",
+      "assets/products/fruitjelly-5.jpg",
+      "assets/products/fruitjelly-6.jpg",
+      "assets/products/fruitjelly-4.jpg",
+      "assets/products/fruitjelly-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "crispball",
+    "name": "Random Color Crispy Balls ( comes with air pump )",
+    "price": 3.5,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "** Minimum Order - 2 balls to get the air pump ** <br>Crispy moldable balls <br>Preorder Available, wt time 7-8 days<br> Random Colour <3",
+    "images": [
+      "assets/products/crispball-1.jpg",
+      "assets/products/crispball-2.jpg",
+      "assets/products/crispball-3.jpg",
+      "assets/products/crispball-4.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "riceball",
+    "name": "Random Color Glutinous Rice Balls  (comes with air pump)",
+    "price": 3,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "** Minimum Order - 2 balls to get the air pump ** <br>Crispy moldable balls <br>Preorder Available, wt time 7-8 days<br> Random Colour <3",
+    "images": [
+      "assets/products/riceball-1.jpg",
+      "assets/products/riceball-2.jpg",
+      "assets/products/riceball-3.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "crispfruits",
+    "name": "Moozy Brand Slow rise dry fruits squishy",
+    "price": 6.5,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Moozy Dry Fruits Squishy slow risinig satisfied <br>Preorder Available, wt time 7-8 days<br>Available in 4 fruits as shown <3<br>Strawberry 🍓 Banana 🍌 Pineapple 🍍 Apple 🍎 Green apple 🍏 ",
+    "images": [
+      "assets/products/6-slowrise-0.jpg",
+      "assets/products/6-slowrise-1.jpg",
+      "assets/products/6-slowrise-2.jpg",
+      "assets/products/6-slowrise-3.jpg",
+      "assets/products/6-slowrise-4.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
     "id": "cheese-cake",
     "name": "2 for $5 mini cheese cake",
     "price": 5,
@@ -33,10 +332,10 @@ window.COZY_PRODUCTS = [
     ],
     "color": "#c9a7f2",
     "desc": "Sweet, Cute and soft slow rise squishies!!<br>Preorder Available, wt time 7-8 days<br>Please dm me for more details <3",
-    "images": [
+    "images": ["assets/products/10-slowrise-01.jpg",
       "assets/products/10-slowrise-6.jpg",
       "assets/products/10-slowrise-0.jpg",
-      "assets/products/10-slowrise-01.jpg",
+      
       "assets/products/10-slowrise-5.jpg",
       "assets/products/10-slowrise-7.jpg",
       "assets/products/10-slowrise-8.jpg",
