@@ -99,7 +99,7 @@ window.COZY_PRODUCTS = [
   {
     "id": "burger",
     "name": "Sticky, Peelable Realistic Burgers Boxed",
-    "price": 12,
+    "price": 10,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
