@@ -123,6 +123,31 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
+    "id": "bakery",
+    "name": "Realistic Bakery Slow Rise Squishies",
+    "price": 6,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Crispy moldable balls come with small air pump <br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "images": [
+      "assets/products/ballaset-1.jpg",
+      "assets/products/ballaset-2.jpg",
+      "assets/products/ballaset-3.jpg",
+      "assets/products/ballaset-4.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
     "id": "ballset",
     "name": "$8 for a pack of 6 different squishy balls (4cm)",
     "price": 8,

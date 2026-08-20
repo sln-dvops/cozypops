@@ -1,7 +1,7 @@
 const CONFIG = {
   telegramUrl: "https://t.me/ng_999a",
   tiktokUrl: "https://www.tiktok.com/@cozypops01",
-  announcement: "[Limited Time Only] 🎀 Free shipping + Freebies for orders $30 and above!",
+  announcement: "🎀 Instocks come in every 2 weeks!",
 };
 const P = window.COZY_PRODUCTS || [];
 const money = (n) => `$${Number(n).toFixed(2)}`;
