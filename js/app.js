@@ -31,8 +31,50 @@ function header() {
     ".html",
     "",
   );
+
   const active = (n) => (page === n ? "active" : "");
-  return `<div class="announcement"><span class="spark">✨</span>${CONFIG.announcement}</div><header><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/cozypops-logo.png" alt="CozyPops logo"><span>CozyPops</span></a><nav class="navlinks" id="navlinks"><a class="${active("index")}" href="index.html">Home</a><a class="${active("shop")}" href="shop.html">Shop</a><a class="${active("about")}" href="about.html">About</a><a class="${active("delivery")}" href="delivery.html">Delivery</a><a class="${active("care")}" href="care.html">Squishy Care</a><a class="${active("contact")}" href="contact.html">Contact</a></nav><a class="telegram-btn" href="${CONFIG.telegramUrl}" target="_blank">✈️ 💌 Order on Telegram</a><button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button></div></header>`;
+
+  return `
+    <div class="announcement">
+      <span class="spark">✨</span>
+      ${CONFIG.announcement}
+    </div>
+
+    <header>
+      <div class="wrap nav">
+
+        <a class="brand" href="index.html">
+          <img src="assets/cozypops-logo.png" alt="CozyPops logo">
+          <span>CozyPops</span>
+        </a>
+
+        <nav class="navlinks" id="navlinks">
+          <a class="${active("index")}" href="index.html">Home</a>
+          <a class="${active("shop")}" href="shop.html">Shop</a>
+          <a class="${active("about")}" href="about.html">About</a>
+          <a class="${active("delivery")}" href="delivery.html">Delivery</a>
+          <a class="${active("care")}" href="care.html">Squishy Care</a>
+          <a class="${active("before-you-buy")}" href="before-you-buy.html">Policy</a>
+        </nav>
+
+        <a
+          class="telegram-btn"
+          href="contact.html"
+        >
+          ✈️ 💌 Contact Me
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+        >
+          ☰
+        </button>
+
+      </div>
+    </header>
+  `;
 }
 function footer() {
   return `<footer><div class="wrap footer"><div class="foot-brand"><a class="brand" href="index.html"><img src="assets/cozypops-logo.png" alt="CozyPops logo"><span>CozyPops</span></a><p>Cute squishies. Cozy vibes. ♡<br>Student-run little squishy shop from the West side.</p></div><div><strong>Explore</strong><div class="foot-links"><a href="shop.html">Shop</a><a href="delivery.html">Delivery</a><a href="care.html">Squishy Care</a></div></div><div><strong>Follow</strong><div class="foot-links"><a href="${CONFIG.telegramUrl}" target="_blank">Telegram</a><a href="${CONFIG.tiktokUrl}" target="_blank">TikTok @cozypops01</a></div></div></div><div class="copy">Made with ♡ by CozyPops</div></footer><div class="toast" id="toast"></div>`;

@@ -1,29 +1,77 @@
 window.COZY_PRODUCTS = [
   {
-    "id": "chinasmush",
-    "name": "Big Mouth China Smushers",
+    "id": "crunchys6",
+    "name": "$6 Viral Crunchy Squishies Multi Color & Design",
     "price": 6,
     "qty": 0,
-    "cat": "Animals",
+    "cat": "Crunchy",
     "badges": [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Big Mouth ChinaSmushers <br>Preorder Available, wt time 7-8 days<br>Available in 4 colors<3<br>- white- yellow- blue- pink",
+    "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
     "images": [
-      "assets/products/chinasmush-1.jpg",
-      "assets/products/chinasmush-2.jpg",
-      "assets/products/chinasmush-3.jpg",
-      "assets/products/chinasmush-4.jpg",
-      "assets/products/chinasmush-5.jpg",
-      "assets/products/chinasmush-6.jpg"
+      "assets/products/6crunchys-0.jpg",
+      "assets/products/soap-2.jpg",
+      "assets/products/6crunchys-1.jpg",
+      "assets/products/6crunchys-2.jpg",
+      "assets/products/6crunchys-3.jpg",
+      "assets/products/pudding-1.jpg"
 
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": false,
+    "featured": true,
     "new": false,
-    "viral": false,
+    "viral": true,
+    "preorder": true
+  },
+  
+  {
+    "id": "crunchys7",
+    "name": "$7 Viral Crunchy Squishies Multi Color & Design",
+    "price": 7,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi crunchy squishies for $7 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/crunchys-1.jpg",
+      "assets/products/crunchys-2.jpg",
+      "assets/products/crunchys-3.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": false,
+    "viral": true,
+    "preorder": true
+  },
+  {
+    "id": "crunchys8",
+    "name": "$8 Viral Crunchy Squishies Multi Color & Design",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/8crunchys-0.jpg",
+      "assets/products/8crunchys-01.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": false,
+    "viral": true,
     "preorder": true
   },
   {
@@ -36,7 +84,7 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Crispy moldable balls come with small air pump <br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "desc": "Giant Brain Foam Squishy <br>Preorder Available, wt time 7-8 days",
     "images": [
       "assets/products/brain-1.jpg",
       "assets/products/brain-2.jpg",
@@ -68,7 +116,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": false,
+    "featured": true,
     "new": false,
     "viral": false,
     "preorder": true
@@ -87,57 +135,6 @@ window.COZY_PRODUCTS = [
     "images": [
       "assets/products/pineapple-1.jpg",
       "assets/products/pineapple-2.jpg",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "burger",
-    "name": "Sticky, Peelable Realistic Burgers Boxed",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Slow rise, Sticky, Peelable Burgers<br>( The seeds may fall off while playing )<br> Prices vary from different designs. <br>Preorder Available, wt time 7-8 days<br>Available in different designs as shown <3",
-    "images": [
-      "assets/products/burger-1.jpg",
-      "assets/products/burger-2.jpg",
-      "assets/products/burger-3.jpg",
-      "assets/products/burger-4.jpg",
-      "assets/products/burger-5.jpg",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "bakery",
-    "name": "Realistic Bakery Slow Rise Squishies",
-    "price": 6,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Realistic Slow Rise Squishies Scented <br>Preorder Available, wt time 7-8 days<br>",
-    "images": [
-      "assets/products/bakery-1.jpg",
-      "assets/products/bakery-2.jpg",
-      "assets/products/bakery-3.jpg",
-      "assets/products/bakery-4.jpg",
 
     ],
     "rating": 4.6,
@@ -172,83 +169,7 @@ window.COZY_PRODUCTS = [
     "viral": false,
     "preorder": true
   },
-  {
-    "id": "snowball",
-    "name": "Frozen snow sound 6cm sugar stress ball",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Frozen snow sound sugar stress ball 6 cm<br>Preorder Available, wt time 7-8 days",
-    "images": [
-      "assets/products/snow-1.jpg",
-      "assets/products/snow-2.jpg",
-      "assets/products/snow-3.jpg"
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "clearball",
-    "name": "6cm crystal Clear Fruit Balls",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Crystal Clear fruit balls <br>Preorder Available, wt time 7-8 days<br>Available in 5 fruits <3<br>- Tomato<br>- Kiwi<br>- Strawberry<br>- Lychee<br>- Blueberry",
-    "images": [
-      "assets/products/clearball-1.jpg",
-      "assets/products/clearball-2.jpg",
-      "assets/products/clearball-3.jpg",
-      "assets/products/clearball-4.jpg",
-      "assets/products/clearball-5.jpg",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "jellyfruit",
-    "name": "Fruit Jelly Bar",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "2 packs for $15 different textured handmade balls.<br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
-    "images": [
-      "assets/products/fruitjelly-1.jpg",
-      "assets/products/fruitjelly-5.jpg",
-      "assets/products/fruitjelly-6.jpg",
-      "assets/products/fruitjelly-4.jpg",
-      "assets/products/fruitjelly-3.jpg",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
+    {
     "id": "crispball",
     "name": "Random Color Crispy Balls ( comes with air pump )",
     "price": 3.5,
@@ -375,6 +296,33 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
+    "id": "chinasmush",
+    "name": "Big Mouth China Smushers",
+    "price": 6,
+    "qty": 0,
+    "cat": "Animals",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Big Mouth ChinaSmushers <br>Preorder Available, wt time 7-8 days<br>Available in 4 colors<3<br>- white- yellow- blue- pink",
+    "images": [
+      "assets/products/chinasmush-1.jpg",
+      "assets/products/chinasmush-2.jpg",
+      "assets/products/chinasmush-3.jpg",
+      "assets/products/chinasmush-4.jpg",
+      "assets/products/chinasmush-5.jpg",
+      "assets/products/chinasmush-6.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
     "id": "smushers-high-quality",
     "name": "Smushers",
     "price": 8.0,
@@ -396,7 +344,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 0,
     "reviews": 0,
-    "featured": true,
+    "featured": false,
     "new": true,
     "viral": true,
     "preorder": false
@@ -408,7 +356,7 @@ window.COZY_PRODUCTS = [
     "qty": 0,
     "cat": "Crunchy",
     "badges": [
-      "viral"
+      "Preorder"
     ],
     "color": "#d6a45e",
     "desc": "*SOLD* Preorder Available Crunchy cheese squishy with a textured shell and satisfying squeeze.",
@@ -417,56 +365,10 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.8,
     "reviews": 30,
-    "featured": true,
+    "featured": false,
     "new": false,
     "viral": true,
-    "preorder": false
-  },
-  
-  {
-    "id": "peanut-crunchy",
-    "name": "Viral Crunchy Peanut",
-    "price": 7,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "viral"
-    ],
-    "color": "#d6a45e",
-    "desc": "SOLD!! Preorder available. Crunchy peanut squishy with a textured shell and satisfying squeeze.",
-    "images": [
-      "assets/products/peanut-1.jpg",
-      "assets/products/peanut-2.jpg"
-    ],
-    "rating": 4.8,
-    "reviews": 30,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": false
-  },
-  {
-    "id": "pudding-crunchy",
-    "name": "Viral Crunchy Pudding",
-    "price": 6,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "new"
-    ],
-    "color": "#f4c5df",
-    "desc": "Crunchy Caramel Pudding",
-    "images": [
-      "assets/products/pudding-3.jpg",
-      "assets/products/pudding-1.jpg",
-      "assets/products/pudding-2.jpg"
-    ],
-    "rating": 4.9,
-    "reviews": 33,
-    "featured": true,
-    "new": true,
-    "viral": false,
-    "preorder": false
+    "preorder": true
   },
   {
     "id": "soap-crunchy",
@@ -474,7 +376,7 @@ window.COZY_PRODUCTS = [
     "price": 6,
     "qty": 0,
     "cat": "Crunchy",
-    "badges": [],
+    "badges": ["Preorder"],
     "color": "#e8b46c",
     "desc": "Oversized fluffy toast squishy for slow, satisfying squeezes.",
     "images": [
@@ -483,84 +385,9 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 36,
-    "featured": true,
+    "featured": false,
     "new": false,
     "viral": false,
-    "preorder": false
-  },
-  {
-    "id": "crunchys6",
-    "name": "$6 Viral Crunchy Squishies Multi Color & Design",
-    "price": 6,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/6crunchys-0.jpg",
-      "assets/products/soap-2.jpg",
-      "assets/products/6crunchys-1.jpg",
-      "assets/products/6crunchys-2.jpg",
-      "assets/products/6crunchys-3.jpg",
-      "assets/products/pudding-1.jpg"
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  
-  {
-    "id": "crunchys7",
-    "name": "$7 Viral Crunchy Squishies Multi Color & Design",
-    "price": 7,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $7 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/crunchys-1.jpg",
-      "assets/products/crunchys-2.jpg",
-      "assets/products/crunchys-3.jpg"
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "crunchys8",
-    "name": "$8 Viral Crunchy Squishies Multi Color & Design",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/8crunchys-0.jpg",
-      "assets/products/8crunchys-01.jpg"
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
     "preorder": true
   },
   {
@@ -607,7 +434,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": false,
+    "featured": true,
     "new": false,
     "viral": true,
     "preorder": true
@@ -632,7 +459,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": false,
+    "featured": true,
     "new": false,
     "viral": true,
     "preorder": true
@@ -661,7 +488,135 @@ window.COZY_PRODUCTS = [
     "new": false,
     "viral": true,
     "preorder": true
-  },{
+  },
+  {
+    "id": "burger",
+    "name": "Sticky, Peelable Realistic Burgers Boxed",
+    "price": 10,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Slow rise, Sticky, Peelable Burgers<br>( The seeds may fall off while playing )<br> Prices vary from different designs. <br>Preorder Available, wt time 7-8 days<br>Available in different designs as shown <3",
+    "images": [
+      "assets/products/burger-1.jpg",
+      "assets/products/burger-2.jpg",
+      "assets/products/burger-3.jpg",
+      "assets/products/burger-4.jpg",
+      "assets/products/burger-5.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "bakery",
+    "name": "Realistic Bakery Slow Rise Squishies",
+    "price": 6,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Realistic Slow Rise Squishies Scented <br>Preorder Available, wt time 7-8 days<br>",
+    "images": [
+      "assets/products/bakery-1.jpg",
+      "assets/products/bakery-2.jpg",
+      "assets/products/bakery-3.jpg",
+      "assets/products/bakery-4.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "snowball",
+    "name": "Frozen snow sound 6cm sugar stress ball",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Frozen snow sound sugar stress ball 6 cm<br>Preorder Available, wt time 7-8 days",
+    "images": [
+      "assets/products/snow-1.jpg",
+      "assets/products/snow-2.jpg",
+      "assets/products/snow-3.jpg"
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "clearball",
+    "name": "6cm crystal Clear Fruit Balls",
+    "price": 10,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Crystal Clear fruit balls <br>Preorder Available, wt time 7-8 days<br>Available in 5 fruits <3<br>- Tomato<br>- Kiwi<br>- Strawberry<br>- Lychee<br>- Blueberry",
+    "images": [
+      "assets/products/clearball-1.jpg",
+      "assets/products/clearball-2.jpg",
+      "assets/products/clearball-3.jpg",
+      "assets/products/clearball-4.jpg",
+      "assets/products/clearball-5.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "jellyfruit",
+    "name": "Fruit Jelly Bar",
+    "price": 10,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "2 packs for $15 different textured handmade balls.<br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "images": [
+      "assets/products/fruitjelly-1.jpg",
+      "assets/products/fruitjelly-5.jpg",
+      "assets/products/fruitjelly-6.jpg",
+      "assets/products/fruitjelly-4.jpg",
+      "assets/products/fruitjelly-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": false,
+    "viral": false,
+    "preorder": true
+  },
+  {
     "id": "hello-kitty-pink",
     "name": "Large Hello Kitty Pink Squishy",
     "price": 5.5,
@@ -679,7 +634,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 0,
     "reviews": 0,
-    "featured": true,
+    "featured": false,
     "new": false,
     "viral": false,
     "preorder": true
@@ -701,7 +656,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.9,
     "reviews": 21,
-    "featured": true,
+    "featured": false,
     "new": false,
     "viral": false,
     "preorder": true
@@ -749,7 +704,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.7,
     "reviews": 27,
-    "featured": true,
+    "featured": false,
     "new": false,
     "viral": false,
     "preorder": true
@@ -818,7 +773,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": false,
+    "featured": true,
     "new": false,
     "viral": true,
     "preorder": true

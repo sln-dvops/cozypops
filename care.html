@@ -1,1 +1,352 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ff8fb5"><link rel="icon" href="assets/cozypops-logo.png"><link rel="stylesheet" href="css/styles.css"><title>Squishy Care | CozyPops</title></head><body><div id="site-header"></div><main><section class="page-head"><div class="wrap"><span class="eyebrow">✨ Play safely</span><h1>Squishy Care & Safety</h1><p class="sub">A few easy things to remember before you squish ♡</p></div></section><section class="section-sm"><div class="wrap"><div class="content-card center" style="margin-bottom:24px"><p style="font-size:18px;margin:0">Some squishies may have a <strong>strong factory smell</strong> when first opened. The smell usually becomes lighter after airing out or playing with it for a while.</p></div><div class="care-list"><div class="care-item"><span class="care-icon">👃</span><div><strong>Please do not smell the squishy closely or directly.</strong></div></div><div class="care-item"><span class="care-icon">🧼</span><div><strong>Wash your hands after playing</strong>, especially before eating.</div></div><div class="care-item"><span class="care-icon">🍭</span><div><strong>Do not put the squishy in your mouth or eat it.</strong></div></div><div class="care-item"><span class="care-icon">🌬️</span><div>If the smell is strong, leave it in a <strong>well-ventilated area</strong> for a while.</div></div><div class="care-item"><span class="care-icon">💦</span><div>If suitable for the squishy, gently clean the surface and let it <strong>dry completely</strong>.</div></div><div class="care-item"><span class="care-icon">✨</span><div><strong>Play, squish & have fun — but remember to keep your hands clean!</strong> 💕</div></div></div></div></section></main><div id="site-footer"></div><script src="js/products.js"></script><script src="js/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#ff8fb5" />
+    <link rel="icon" href="assets/cozypops-logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Squishy Care | CozyPops</title>
+    <style>
+        /* =========================
+   SQUISHY CARE
+========================= */
+
+.care-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 20px 65px;
+  text-align: center;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 191, 214, .55), transparent 28%),
+    radial-gradient(circle at 80% 30%, rgba(217, 190, 255, .4), transparent 25%),
+    linear-gradient(180deg, #fff4f7 0%, #fff9f7 100%);
+}
+
+.care-hero-inner {
+  max-width: 760px;
+}
+
+.care-hero h1 {
+  margin: 12px 0;
+  font-size: clamp(38px, 6vw, 64px);
+  line-height: 1;
+  color: #70354b;
+}
+
+.care-hero p {
+  max-width: 590px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #a36f7f;
+}
+
+.care-hero-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 25px;
+}
+
+.care-hero-icons span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(255,255,255,.7);
+  border: 1px solid #ffd9e5;
+  border-radius: 50%;
+  font-size: 22px;
+  animation: cozyFloat 3s ease-in-out infinite;
+}
+
+.care-hero-icons span:nth-child(2) { animation-delay: .25s; }
+.care-hero-icons span:nth-child(3) { animation-delay: .5s; }
+.care-hero-icons span:nth-child(4) { animation-delay: .75s; }
+.care-hero-icons span:nth-child(5) { animation-delay: 1s; }
+
+@keyframes cozyFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+
+.care-notice {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto 35px;
+  padding: 26px 30px;
+  background: linear-gradient(135deg, #fff, #fff0f5);
+  border: 1px solid #ffd4e2;
+  border-radius: 28px;
+  box-shadow: 0 12px 35px rgba(144, 64, 95, .08);
+}
+
+.care-notice-icon {
+  flex: 0 0 62px;
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background: #ffe3ed;
+  font-size: 30px;
+}
+
+.care-notice h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  color: #74374d;
+}
+
+.care-notice p {
+  margin: 0;
+  color: #996f7c;
+  line-height: 1.7;
+}
+
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.care-card {
+  padding: 28px 24px;
+  text-align: center;
+  border: 1px solid #ffe0e9;
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(129, 65, 89, .07);
+  transition: .25s ease;
+}
+
+.care-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 35px rgba(129, 65, 89, .12);
+}
+
+.care-card-icon {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #ffe1eb, #fff0dc);
+  font-size: 30px;
+}
+
+.care-card h3 {
+  margin: 0 0 8px;
+  color: #70354b;
+  font-size: 18px;
+}
+
+.care-card p {
+  margin: 0;
+  color: #98717e;
+  line-height: 1.65;
+}
+
+.before-buy-banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin-top: 45px;
+  padding: 34px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ffe1ed, #fff1dd, #f3e7ff);
+}
+
+.before-buy-banner h2 {
+  margin: 6px 0 8px;
+  color: #70354b;
+}
+
+.before-buy-banner p {
+  max-width: 650px;
+  margin: 0;
+  color: #956d7a;
+  line-height: 1.6;
+}
+
+.mini-label {
+  color: #d95d87;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.cute-button {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 22px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff8fb5, #ffb18f);
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(255, 143, 181, .25);
+  transition: .2s ease;
+}
+
+.cute-button:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+@media (max-width: 850px) {
+  .care-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .before-buy-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  .care-hero {
+    padding: 55px 18px 45px;
+  }
+
+  .care-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .care-notice {
+    align-items: flex-start;
+    padding: 22px;
+  }
+
+  .care-notice-icon {
+    flex-basis: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main>
+  <section class="care-hero">
+    <div class="wrap care-hero-inner">
+      <span class="eyebrow">✨ Play safely</span>
+      <h1>Squishy Care & Safety</h1>
+      <p>
+        A few simple things to keep your squishies cute,
+        clean and fun to play with ♡
+      </p>
+
+      <div class="care-hero-icons">
+        <span>🧸</span>
+        <span>💗</span>
+        <span>✨</span>
+        <span>🍰</span>
+        <span>🎀</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="wrap">
+
+      <div class="care-notice">
+        <div class="care-notice-icon">🌸</div>
+        <div>
+          <h2>About the factory smell</h2>
+          <p>
+            Some squishies may have a <strong>strong factory smell</strong>
+            when first opened. The smell usually becomes lighter after
+            airing out or playing with the squishy for a while.
+          </p>
+        </div>
+      </div>
+
+      <div class="care-grid">
+
+        <article class="care-card">
+          <span class="care-card-icon">👃</span>
+          <h3>Don't smell closely</h3>
+          <p>Please do not smell the squishy closely or directly.</p>
+        </article>
+
+        <article class="care-card">
+          <span class="care-card-icon">🧼</span>
+          <h3>Wash your hands</h3>
+          <p>
+            Wash your hands after playing, especially before eating.
+          </p>
+        </article>
+
+        <article class="care-card">
+          <span class="care-card-icon">🍭</span>
+          <h3>Not for eating</h3>
+          <p>
+            Never put the squishy in your mouth or attempt to eat it.
+          </p>
+        </article>
+
+        <article class="care-card">
+          <span class="care-card-icon">🌬️</span>
+          <h3>Air it out</h3>
+          <p>
+            If the smell is strong, leave it in a well-ventilated area
+            for a while.
+          </p>
+        </article>
+
+        <article class="care-card">
+          <span class="care-card-icon">💦</span>
+          <h3>Clean gently</h3>
+          <p>
+            If suitable for the squishy, gently clean the surface and
+            let it dry completely.
+          </p>
+        </article>
+
+        <article class="care-card">
+          <span class="care-card-icon">✨</span>
+          <h3>Squish gently</h3>
+          <p>
+            Play, squish and have fun — but remember that squishies can
+            wear or tear if handled roughly.
+          </p>
+        </article>
+
+      </div>
+
+      <div class="before-buy-banner">
+        <div>
+          <span class="mini-label">💌 Before ordering</span>
+          <h2>Please read our Important Notice</h2>
+          <p>
+            Squishies are delicate products and small imperfections can
+            be completely normal. Please read this before confirming
+            your purchase.
+          </p>
+        </div>
+
+        <a href="before-you-buy.html" class="cute-button">
+          Read Before Purchasing ♡
+        </a>
+      </div>
+
+    </div>
+  </section>
+</main>
+    <div id="site-footer"></div>
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

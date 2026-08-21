@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#ff8fb5" />
+  <link rel="icon" href="assets/cozypops-logo.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Read Before Purchasing | CozyPops</title>
+</head>
+<style>
+    /* =========================
+   READ BEFORE PURCHASING
+========================= */
+
+/* ==================================
+   READ BEFORE PURCHASING
+================================== */
+
+.buy-hero {
+  padding: 58px 20px 44px;
+  text-align: center;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255, 205, 222, .55), transparent 25%),
+    radial-gradient(circle at 83% 22%, rgba(232, 211, 255, .45), transparent 25%),
+    linear-gradient(180deg, #fff4f7, #fffaf8);
+}
+
+.buy-hero h1 {
+  margin: 10px 0 12px;
+  font-size: clamp(38px, 6vw, 62px);
+  line-height: 1.05;
+  color: #70354b;
+}
+
+.buy-hero p {
+  max-width: 690px;
+  margin: auto;
+  color: #98717f;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.buy-section {
+  padding: 38px 20px 55px;
+}
+
+.buy-wrap {
+  max-width: 1040px;
+}
+
+
+/* Section headings */
+
+.compact-title {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 16px;
+}
+
+.compact-title > span {
+  font-size: 29px;
+}
+
+.compact-title h2 {
+  margin: 0;
+  color: #71364c;
+  font-size: 25px;
+}
+
+.compact-title p {
+  margin: 3px 0 0;
+  color: #a17886;
+  font-size: 14px;
+}
+
+.section-title-gap {
+  margin-top: 32px;
+}
+
+
+/* What to expect */
+
+.expect-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.expect-item {
+  display: flex;
+  gap: 13px;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #ffe0e8;
+  border-radius: 20px;
+  box-shadow: 0 7px 20px rgba(120, 66, 84, .05);
+}
+
+.expect-item > span {
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: #fff0f4;
+  border-radius: 14px;
+  font-size: 21px;
+}
+
+.expect-item strong {
+  color: #75394f;
+  font-size: 15px;
+}
+
+.expect-item p {
+  margin: 4px 0 0;
+  color: #96707d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* Squishy types */
+
+.type-compact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.type-compact-card {
+  padding: 19px;
+  background: linear-gradient(145deg, #fff, #fff8fa);
+  border: 1px solid #ffdee8;
+  border-radius: 21px;
+}
+
+.type-top {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.type-top span {
+  font-size: 24px;
+}
+
+.type-top h3 {
+  margin: 0;
+  color: #71364c;
+  font-size: 16px;
+}
+
+.type-compact-card p {
+  margin: 10px 0 0;
+  color: #95707d;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+
+/* Quick notes */
+
+.quick-note-box {
+  margin-top: 28px;
+  padding: 23px;
+  background: linear-gradient(135deg, #fff1f6, #fff7ee);
+  border-radius: 23px;
+}
+
+.quick-note-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 13px;
+}
+
+.quick-note-title span {
+  font-size: 24px;
+}
+
+.quick-note-title h2 {
+  margin: 0;
+  color: #71364c;
+  font-size: 20px;
+}
+
+.quick-reminders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+}
+
+.quick-reminders > div {
+  display: flex;
+  gap: 8px;
+}
+
+.quick-reminders span {
+  color: #f46f9d;
+  font-weight: 900;
+}
+
+.quick-reminders p {
+  margin: 0;
+  color: #8f6976;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.quick-reminders a {
+  color: #dc628c;
+  font-weight: 700;
+}
+
+
+/* Purchase policy */
+
+.purchase-policy {
+  margin-top: 28px;
+  padding: 26px;
+  border: 2px dashed #f2a2bb;
+  border-radius: 24px;
+  background: #fff9fb;
+}
+
+.policy-title {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.policy-title > span {
+  font-size: 30px;
+}
+
+.policy-title h2 {
+  margin: 3px 0 0;
+  color: #71364c;
+  font-size: 22px;
+}
+
+.mini-label {
+  color: #db608b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.policy-list {
+  display: grid;
+  gap: 7px;
+}
+
+.policy-row {
+  display: flex;
+  gap: 10px;
+  padding: 12px 15px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.policy-row > span {
+  color: #ff78a5;
+  font-weight: 900;
+}
+
+.policy-row p {
+  margin: 0;
+  color: #865f6d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.policy-confirm {
+  margin-top: 15px;
+  padding: 14px 18px;
+  text-align: center;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #ff8fb4, #ffae93);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+/* Bottom */
+
+.buy-thankyou {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.buy-thankyou > span {
+  font-size: 24px;
+}
+
+.buy-thankyou strong {
+  color: #71364c;
+  font-size: 17px;
+}
+
+.buy-thankyou p {
+  margin: 3px 0 0;
+  color: #9a7480;
+  font-size: 14px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 760px) {
+
+  .expect-grid,
+  .quick-reminders {
+    grid-template-columns: 1fr;
+  }
+
+  .type-compact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .buy-section {
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .buy-hero {
+    padding: 45px 18px 34px;
+  }
+
+  .purchase-policy,
+  .quick-note-box {
+    padding: 20px 17px;
+  }
+
+  .expect-item {
+    padding: 15px;
+  }
+}
+
+.purchase-policy {
+  margin-top: 50px;
+  padding: 35px;
+  border: 2px dashed #f3a3ba;
+  border-radius: 30px;
+  background: #fff8fa;
+}
+
+.policy-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.policy-title > span {
+  font-size: 36px;
+}
+
+.policy-title h2 {
+  margin: 4px 0 0;
+  color: #71364c;
+}
+
+.policy-list {
+  display: grid;
+  gap: 12px;
+}
+
+.policy-row {
+  display: flex;
+  gap: 12px;
+  padding: 17px 20px;
+  border-radius: 18px;
+  background: #fff;
+}
+
+.policy-row > span {
+  color: #ff78a6;
+  font-weight: 900;
+}
+
+.policy-row p {
+  margin: 0;
+  color: #875f6d;
+  line-height: 1.6;
+}
+
+.policy-confirm {
+  margin-top: 22px;
+  padding: 18px 22px;
+  text-align: center;
+  border-radius: 18px;
+  background: linear-gradient(90deg, #ff91b4, #ffb193);
+  color: white;
+  font-weight: 800;
+}
+
+.notice-thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 45px;
+  padding: 30px;
+  text-align: center;
+}
+
+.notice-thankyou > span {
+  font-size: 30px;
+}
+
+.notice-thankyou h2 {
+  margin: 0;
+  color: #71364c;
+}
+
+.notice-thankyou p {
+  margin: 6px 0 0;
+  color: #98717e;
+}
+
+@media (max-width: 900px) {
+  .squishy-type-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .important-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .important-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .purchase-policy,
+  .lifespan-card {
+    padding: 24px 20px;
+  }
+}
+</style>
+
+<body>
+
+<div id="site-header"></div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="buy-hero">
+    <div class="wrap">
+      <span class="eyebrow">🎀 A quick note before ordering</span>
+      <h1>Read Before Purchasing</h1>
+      <p>
+        Squishies are soft, delicate products and every piece can feel or
+        look a little different. Here are a few things to know before
+        bringing one home ♡
+      </p>
+    </div>
+  </section>
+
+
+  <section class="buy-section">
+    <div class="wrap buy-wrap">
+
+      <!-- WHAT TO EXPECT -->
+      <div class="compact-title">
+        <span>💗</span>
+        <div>
+          <h2>What to Expect</h2>
+          <p>Small differences are part of the squishy experience.</p>
+        </div>
+      </div>
+
+      <div class="expect-grid">
+
+        <div class="expect-item">
+          <span>🌸</span>
+          <div>
+            <strong>Each piece may vary</strong>
+            <p>
+              Colour, shape, softness, texture and finishing may vary
+              slightly from the photos or from another piece.
+            </p>
+          </div>
+        </div>
+
+        <div class="expect-item">
+          <span>☁️</span>
+          <div>
+            <strong>Small marks can happen</strong>
+            <p>
+              Tiny bubbles, pinholes, light wrinkles or uneven areas can
+              naturally appear on soft squishy materials.
+            </p>
+          </div>
+        </div>
+
+        <div class="expect-item">
+          <span>📦</span>
+          <div>
+            <strong>Shipping may change the shape</strong>
+            <p>
+              A squishy may arrive slightly pressed or dented after packing.
+              Soft foam usually improves after being left out for a while.
+            </p>
+          </div>
+        </div>
+
+        <div class="expect-item">
+          <span>✨</span>
+          <div>
+            <strong>They will not stay perfect forever</strong>
+            <p>
+              Squishies are meant to be squeezed, so some wear over time is
+              normal — especially with frequent or rough play.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- DIFFERENT TYPES -->
+      <div class="compact-title section-title-gap">
+        <span>🧸</span>
+        <div>
+          <h2>Different Squishies Feel Different</h2>
+          <p>Not every squishy is made to behave the same way.</p>
+        </div>
+      </div>
+
+      <div class="type-compact-grid">
+
+        <article class="type-compact-card">
+          <div class="type-top">
+            <span>☁️</span>
+            <h3>Soft & Slow-Rising</h3>
+          </div>
+
+          <p>
+            Made for that soft, satisfying squeeze. They may develop
+            wrinkles or small foam marks with use.
+          </p>
+        </article>
+
+
+        <article class="type-compact-card">
+          <div class="type-top">
+            <span>🍪</span>
+            <h3>Crunchy / Textured</h3>
+          </div>
+
+          <p>
+            These have extra texture or filling for a different feeling.
+            They can be more delicate, so avoid squeezing too aggressively.
+          </p>
+        </article>
+
+
+        <article class="type-compact-card">
+          <div class="type-top">
+            <span>🫧</span>
+            <h3>Gel / Bead / Slushy</h3>
+          </div>
+
+          <p>
+            Filled squishies can be extra satisfying but are also easier
+            to damage if stretched, pulled or punctured.
+          </p>
+        </article>
+
+      </div>
+
+
+      <!-- QUICK REMINDERS -->
+      <div class="quick-note-box">
+
+        <div class="quick-note-title">
+          <span>🎀</span>
+          <h2>A Few Gentle Reminders</h2>
+        </div>
+
+        <div class="quick-reminders">
+
+          <div>
+            <span>♡</span>
+            <p>
+              Please avoid pulling thin parts such as ears, tails,
+              decorations or glued accessories.
+            </p>
+          </div>
+
+          <div>
+            <span>♡</span>
+            <p>
+              Product photos may look slightly different depending on
+              lighting and your screen.
+            </p>
+          </div>
+
+          <div>
+            <span>♡</span>
+            <p>
+              Some squishies may have a factory scent when first opened.
+              See our <a href="care.html">Squishy Care page</a> for more info.
+            </p>
+          </div>
+
+          <div>
+            <span>♡</span>
+            <p>
+              If you prefer a specific colour or variation, please check
+              with me before confirming your order.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- PURCHASE POLICY -->
+      <div class="purchase-policy">
+
+        <div class="policy-title">
+          <span>💌</span>
+
+          <div>
+            <span class="mini-label">Purchase Policy</span>
+            <h2>Please confirm carefully before ordering</h2>
+          </div>
+        </div>
+
+
+        <div class="policy-list">
+
+          <div class="policy-row">
+            <span>♡</span>
+            <p>
+              <strong>No change-of-mind refunds or exchanges</strong>
+              after an order has been confirmed.
+            </p>
+          </div>
+
+
+          <div class="policy-row">
+            <span>♡</span>
+            <p>
+              Please check the <strong>product, quantity, colour/type,
+              price and delivery method</strong> before confirming.
+            </p>
+          </div>
+
+
+          <div class="policy-row">
+            <span>♡</span>
+            <p>
+              Small cosmetic differences such as minor wrinkles, pinholes,
+              air pockets, small dents or slight variations are generally
+              part of the product and are not considered defects.
+            </p>
+          </div>
+
+
+          <div class="policy-row">
+            <span>♡</span>
+            <p>
+              Damage caused after receiving the item through
+              <strong>pulling, overstretching, rough handling or normal
+              wear</strong> is not eligible for a return or exchange.
+            </p>
+          </div>
+
+
+          <div class="policy-row">
+            <span>♡</span>
+            <p>
+              If you receive the <strong>wrong item or there is a significant
+              issue when it arrives</strong>, please contact CozyPops as soon
+              as possible with clear photos or videos so I can check it with you.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="policy-confirm">
+          🎀 By confirming your order, you acknowledge that you have read
+          and understood the information above.
+        </div>
+
+      </div>
+
+
+      <!-- BOTTOM MESSAGE -->
+      <div class="buy-thankyou">
+        <span>💗</span>
+
+        <div>
+          <strong>Thank you for supporting CozyPops!</strong>
+          <p>
+            Please choose carefully, squish gently and enjoy your new
+            squishy ♡
+          </p>
+        </div>
+
+        <span>✨</span>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+<div id="site-footer"></div>
+
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
