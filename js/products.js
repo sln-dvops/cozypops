@@ -132,12 +132,12 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Crispy moldable balls come with small air pump <br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
+    "desc": "Realistic Slow Rise Squishies Scented <br>Preorder Available, wt time 7-8 days<br>",
     "images": [
-      "assets/products/ballaset-1.jpg",
-      "assets/products/ballaset-2.jpg",
-      "assets/products/ballaset-3.jpg",
-      "assets/products/ballaset-4.jpg",
+      "assets/products/bakery-1.jpg",
+      "assets/products/bakery-2.jpg",
+      "assets/products/bakery-3.jpg",
+      "assets/products/bakery-4.jpg",
 
     ],
     "rating": 4.6,
