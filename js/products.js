@@ -400,7 +400,7 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Colourful Soft Vaseline Texture Cheese 6cm <br> Available for PREORDER wt time 7-8 days<br>- Mint<br>- Pink<br>- Clear<br>- Blue ",
+    "desc": "Colourful Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>- Mint<br>- Pink<br>- Clear<br>- Blue ",
     "images": [
       "assets/products/jellycheese-1.jpg",
       "assets/products/jellycheese-2.jpg",
@@ -424,7 +424,7 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>6 cm ($8)<br>7cm ($11)<br>- Pink Cheese<br>- Yellow Cheese ",
+    "desc": "Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>Small($8)<br>Big ($11)<br>- Pink Cheese<br>- Yellow Cheese ",
     "images": [
       "assets/products/vaselinecheese-2.jpg",
       "assets/products/vaselinecheese-1.jpg",
