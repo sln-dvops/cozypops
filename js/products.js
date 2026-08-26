@@ -194,31 +194,7 @@ window.COZY_PRODUCTS = [
     "viral": false,
     "preorder": true
   },
-  {
-    "id": "riceball",
-    "name": "Random Color Glutinous Rice Balls  (comes with air pump)",
-    "price": 3,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "** Minimum Order - 2 balls to get the air pump ** <br>Crispy moldable balls <br>Preorder Available, wt time 7-8 days<br> Random Colour <3",
-    "images": [
-      "assets/products/riceball-1.jpg",
-      "assets/products/riceball-2.jpg",
-      "assets/products/riceball-3.jpg"
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
+    {
     "id": "crispfruits",
     "name": "Moozy Brand Slow rise dry fruits squishy",
     "price": 6.5,
