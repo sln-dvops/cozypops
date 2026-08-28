@@ -75,6 +75,56 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
+    "id": "pearl",
+    "name": "Shiny pearl coconut oil balls",
+    "price": 8,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi color pearl coconut oil balls <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/pearl.jpg",
+      "assets/products/pearl-4.jpg",
+      "assets/products/pearl-2.jpg",
+      "assets/products/pearl-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": false,
+    "viral": true,
+    "preorder": true
+  },
+  {
+    "id": "cheeseball",
+    "name": "10 cm fluid Cheese Balls",
+    "price": 6,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi fluid cheese balls<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/cheeseball-1.jpg",
+      "assets/products/cheeseball-2.jpg",
+      "assets/products/cheeseball-3.jpg",
+      "assets/products/cheeseball-4.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": false,
+    "viral": true,
+    "preorder": true
+  },
+  {
     "id": "brain",
     "name": "Giant Brain Foam Squishy",
     "price": 12,
