@@ -263,7 +263,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": true,
+    "featured": false,
     "new": true,
     "viral": false,
     "preorder": true
@@ -286,7 +286,7 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": true,
+    "featured": false,
     "new": true,
     "viral": false,
     "preorder": true
