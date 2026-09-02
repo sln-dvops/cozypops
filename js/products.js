@@ -1,5 +1,298 @@
 window.COZY_PRODUCTS = [
   {
+    "id": "diy set",
+    "name": "NEW DIY Crunchy Squishy kits",
+    "price": 10,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Everything you need to make different types of squishies, all in one kit! 🎨 <br> Perfect for some fun during the holidays 💕<br>💰 Price <br>5 Balls CUTE set — $10<br>9 Balls PLAY set — $16<br>12 Balls DIAMOND set— $22<br>17 Balls SUPREME set— $30 🤯💗 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/handmadeset-1.jpg",
+      "assets/products/handmadeset-2.jpg",
+      "assets/products/handmadeset-4.jpg",
+      "assets/products/handmadeset-3.jpg",
+      "assets/products/handmadeset-5.jpg",
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "molynk-cake",
+    "name": "*pm for price* Molynk birthday cake squishy",
+    "price": 0,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Viral Molynk Cake Set<br> Everything is squishy and scented.<br>Perfect for birthday gifts.<br> DM me via telegram or whatsapp for price details <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      
+      "assets/products/cakee-1.jpg",
+      "assets/products/cakee-2.jpg",
+      "assets/products/cakee-3.jpg",
+      "assets/products/cakee-4.jpg",
+      "assets/products/cakee-5.jpg",
+      "assets/products/cakee-6.jpg",
+      "assets/products/cakee-7.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "snow slushy",
+    "name": "Slushy Ice Snow Ball",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi ice snow ball slushy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/iceball-1.jpg",
+      "assets/products/iceball-2.jpg",
+      "assets/products/iceball.jpg",
+      "assets/products/snowslushy.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "pooooop",
+    "name": "NEW Crunchy POOP",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Crunchy Poop <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/poop.jpg",
+      "assets/products/poop-1.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "vaseline butter",
+    "name": "Vaseline Butter",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful butter squishies vaseline texture. <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/vbutter-1.jpg",
+      "assets/products/vbutter-2.jpg",
+      "assets/products/vbutter-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "vaselin-strawberry",
+    "name": "Vaseline Strawberry",
+    "price": 8,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Vaseline textured strawberry <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/vstraw-1.jpg",
+      "assets/products/vstraw-2.jpg",
+      "assets/products/vstraw-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "strawberry",
+    "name": "Color changing strawberry",
+    "price": 6,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Color changing foam filled strawberry<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/straw-1.jpg",
+      "assets/products/straw-2.jpg",
+      "assets/products/straw-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "putty",
+    "name": "Viral Liquid Glass",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/putty.jpg",
+      "assets/products/putty-1.jpg",
+      "assets/products/putty-2.jpg",
+      "assets/products/putty-3.jpg",
+      "assets/products/glass-3.jpg",
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "spongebob",
+    "name": "Spongebob & Patrick crunchy squishy",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": " Spongebob and Patrick crunchy squishies <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/crunchy-88.jpg",
+      "assets/products/crunchy-888.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },{
+    "id": "slushy cube",
+    "name": "Slushy cheese cube",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi slushy texture cheese cube squishies<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/slushycube.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "colorful-vaseline",
+    "name": "Colourful Vaseline Cheese",
+    "price": 8,
+    "qty": 0,
+    "cat": "Food Squishies",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Colourful multi colour vaseline cheese squishies <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/vcheese-0.jpg",
+      "assets/products/vcheese-1.jpg",
+      "assets/products/vcheese-3.jpg",
+      "assets/products/vcheese-4.jpg",
+      "assets/products/vcheese-5.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "miffy",
+    "name": "MIFFY slow rise",
+    "price": 6,
+    "qty": 0,
+    "cat": "Animals",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Cute Miffy Slowrise Squishies for $6 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/miffy-1.jpg",
+      "assets/products/miffy-2.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  
+  {
     "id": "crunchys6",
     "name": "$6 Viral Crunchy Squishies Multi Color & Design",
     "price": 6,
@@ -546,7 +839,7 @@ window.COZY_PRODUCTS = [
     "name": "Realistic Bakery Slow Rise Squishies",
     "price": 6,
     "qty": 0,
-    "cat": "Crunchy",
+    "cat": "Food Squishies",
     "badges": [
       "preorder"
     ],
