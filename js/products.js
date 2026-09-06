@@ -245,14 +245,14 @@ window.COZY_PRODUCTS = [
   {
     "id": "colorful-vaseline",
     "name": "Colourful Vaseline Cheese",
-    "price": 8,
+    "price": 10,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Colourful multi colour vaseline cheese squishies <br> Available for PREORDER wt time 7-8 days",
+    "desc": "Colourful multi colour vaseline cheese squishies<br>5cm - $8<br>7cm - $10 <br> Available for PREORDER wt time 7-8 days",
     "images": [
       "assets/products/vcheese-0.jpg",
       "assets/products/vcheese-1.jpg",
