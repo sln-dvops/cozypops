@@ -1100,7 +1100,7 @@ window.COZY_PRODUCTS = [
   {
     "id": "hachimi-dumpling",
     "name": "Hachimi Cute Dumpling",
-    "price": 5.50,
+    "price": 7,
     "qty": 0,
     "cat": "Food Squishies",
     "badges": [
