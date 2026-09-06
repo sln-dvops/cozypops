@@ -305,8 +305,7 @@ window.COZY_PRODUCTS = [
     "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
     "images": [
       "assets/products/6crunchys-0.jpg",
-      "assets/products/soap-2.jpg",
-      "assets/products/6crunchys-1.jpg",
+            "assets/products/6crunchys-1.jpg",
       "assets/products/6crunchys-2.jpg",
       "assets/products/6crunchys-3.jpg",
       "assets/products/pudding-1.jpg"
@@ -333,6 +332,7 @@ window.COZY_PRODUCTS = [
     "desc": "Colourful multi crunchy squishies for $7 <br> Available for PREORDER wt time 7-8 days",
     "images": [
       "assets/products/crunchys-1.jpg",
+      "assets/products/soap-2.jpg",
       "assets/products/crunchys-2.jpg",
       "assets/products/crunchys-3.jpg"
 
@@ -489,7 +489,7 @@ window.COZY_PRODUCTS = [
   },
   {
     "id": "ballset",
-    "name": "$8 for a pack of 6 different squishy balls (4cm)",
+    "name": "$8 for a pack of 6 different squishy balls (3-4cm)",
     "price": 8,
     "qty": 0,
     "cat": "Crunchy",
@@ -692,7 +692,7 @@ window.COZY_PRODUCTS = [
   {
     "id": "soap-crunchy",
     "name": "Viral Crunchy Soap",
-    "price": 6,
+    "price": 7,
     "qty": 0,
     "cat": "Crunchy",
     "badges": ["Preorder"],
@@ -707,30 +707,6 @@ window.COZY_PRODUCTS = [
     "featured": false,
     "new": false,
     "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "jellycheese",
-    "name": "Colorful Vaseline Jelly Cheese",
-    "price": 11,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>- Mint<br>- Pink<br>- Clear<br>- Blue ",
-    "images": [
-      "assets/products/jellycheese-1.jpg",
-      "assets/products/jellycheese-2.jpg",
-      "assets/products/jellycheese-3.jpg",
-      "assets/products/jellycheese-4.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
     "preorder": true
   },
   {
@@ -884,32 +860,6 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
-    "id": "clearball",
-    "name": "6cm crystal Clear Fruit Balls",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Crystal Clear fruit balls <br>Preorder Available, wt time 7-8 days<br>Available in 5 fruits <3<br>- Tomato<br>- Kiwi<br>- Strawberry<br>- Lychee<br>- Blueberry",
-    "images": [
-      "assets/products/clearball-1.jpg",
-      "assets/products/clearball-2.jpg",
-      "assets/products/clearball-3.jpg",
-      "assets/products/clearball-4.jpg",
-      "assets/products/clearball-5.jpg",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
     "id": "jellyfruit",
     "name": "Fruit Jelly Bar",
     "price": 10,
@@ -930,51 +880,6 @@ window.COZY_PRODUCTS = [
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hello-kitty-pink",
-    "name": "Large Hello Kitty Pink Squishy",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#f6a8c7",
-    "desc": "Cute Pink Hello Kitty Squishy <br> - Large Size <br>- Available in Pink color only",
-    "images": [
-      "assets/products/hellokitty-1.jpeg",
-      "assets/products/hellokitty-2.jpeg",
-      "assets/products/hellokitty-3.jpeg"
-    ],
-    "rating": 0,
-    "reviews": 0,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "cat-paw-soft",
-    "name": "Large Cat Paw Soft Squishy",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#ffe29a",
-    "desc": "Cloud-soft cat paw squishy with a gentle rebound.<br> Available in 2 colors. <br>- Baby Pink<br>- Baby Yellow",
-    "images": [
-      "assets/products/paws-yellow.jpeg",
-      "assets/products/paws-pink.jpeg"
-    ],
-    "rating": 4.9,
-    "reviews": 21,
     "featured": false,
     "new": false,
     "viral": false,
