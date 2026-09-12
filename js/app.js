@@ -4,6 +4,8 @@ const CONFIG = {
   announcement: "🎀 Instocks come in every 2 weeks!",
 };
 const P = window.COZY_PRODUCTS || [];
+const DIY = window.COZY_DIY_PRODUCTS || [];
+const ALL_PRODUCTS = [...P, ...DIY];
 const money = (n) => `$${Number(n).toFixed(2)}`;
 const qs = (s, el = document) => el.querySelector(s);
 const qsa = (s, el = document) => [...el.querySelectorAll(s)];
@@ -23,8 +25,81 @@ function badges(p) {
   return b.join("");
 }
 function productCard(p) {
-  const s = stockState(p);
-  return `<article class="product-card reveal"><a href="product.html?id=${encodeURIComponent(p.id)}"><div class="product-media"><img src="${p.images[0]}" alt="${p.name}"><div class="badges">${badges(p)}</div></div><div class="card-body"><div class="product-name">${p.name}</div><div class="price-row"><span class="price">${money(p.price)}</span><span class="stock ${s.cls}">${s.txt}</span></div><button class="btn-soft">View Squishy ♡</button></div></a></article>`;
+
+  const s =
+    stockState(p);
+
+
+  const isDIY =
+    DIY.some(
+      (x) => x.id === p.id,
+    );
+
+
+  return `
+
+    <article class="product-card reveal">
+
+      <a href="product.html?id=${encodeURIComponent(p.id)}">
+
+        <div class="product-media">
+
+          <img
+            src="${p.images[0]}"
+            alt="${p.name}"
+          >
+
+
+          <div class="badges">
+
+            ${
+              isDIY
+                ? '<span class="badge">🎨 DIY</span>'
+                : badges(p)
+            }
+
+          </div>
+
+        </div>
+
+
+        <div class="card-body">
+
+          <div class="product-name">
+            ${p.name}
+          </div>
+
+
+          <div class="price-row">
+
+            <span class="price">
+              ${money(p.price)}
+            </span>
+
+            <span class="stock ${s.cls}">
+              ${s.txt}
+            </span>
+
+          </div>
+
+
+          <button class="btn-soft">
+
+            ${
+              isDIY
+                ? "View DIY Item ♡"
+                : "View Squishy ♡"
+            }
+
+          </button>
+
+        </div>
+
+      </a>
+
+    </article>
+
+  `;
 }
 function header() {
   const page = (location.pathname.split("/").pop() || "index.html").replace(
@@ -51,7 +126,7 @@ function header() {
         <nav class="navlinks" id="navlinks">
           <a class="${active("index")}" href="index.html">Home</a>
           <a class="${active("shop")}" href="shop.html">Shop</a>
-          <a class="${active("about")}" href="about.html">About</a>
+          <a class="${active("diy")}" href="diy.html">DIY Studio<span class="nav-new-badge">NEW</span></a>
           <a class="${active("delivery")}" href="delivery.html">Delivery</a>
           <a class="${active("care")}" href="care.html">Squishy Care</a>
           <a class="${active("before-you-buy")}" href="before-you-buy.html">Policy</a>
@@ -188,21 +263,176 @@ function getSavedReviews(id) {
 }
 function detail() {
   const el = qs("#productDetail");
+
   if (!el) return;
-  const id = new URLSearchParams(location.search).get("id") || P[0].id;
-  const p = P.find((x) => x.id === id) || P[0];
-  document.title = `${p.name} | CozyPops`;
-  const s = stockState(p);
-  el.innerHTML = `<div><a class="back" href="shop.html">← Back to shop</a><div class="gallery-main"><img id="mainImg" src="${p.images[0]}" alt="${p.name}"></div><div class="thumbs">${p.images.map((im, i) => `<button class="thumb ${i === 0 ? "active" : ""}" data-img="${im}"><img src="${im}" alt="${p.name} view ${i + 1}"></button>`).join("")}</div></div><div class="detail-meta"><div class="badges" style="position:static">${badges(p)}</div><h1>${p.name}</h1><div><span class="big-price">${money(p.price)}</span><span class="pill-stock">${s.txt}</span></div><p class="muted">Category: <strong>${p.cat}</strong></p><p class="detail-desc">${p.desc}<br></p><div class="order-box"><h3>✈️ Interested? Order on Telegram</h3><p>Send me a screenshot or the name of the squishy you want ♡</p><a class="telegram-btn" target="_blank" href="${CONFIG.telegramUrl}">✈️ 💌 Order on Telegram</a></div></div>`;
-  qsa(".thumb").forEach(
-    (t) =>
-      (t.onclick = () => {
-        qs("#mainImg").src = t.dataset.img;
-        qsa(".thumb").forEach((x) => x.classList.remove("active"));
-        t.classList.add("active");
-      }),
-  );
+
+  const id =
+    new URLSearchParams(location.search).get("id");
+
+  const p =
+    ALL_PRODUCTS.find((x) => x.id === id);
+
+  if (!p) {
+    el.innerHTML = `
+      <div class="empty">
+        Product not found 💗
+      </div>
+    `;
+
+    return;
+  }
+
+  const isDIY =
+    DIY.some((x) => x.id === p.id);
+
+  document.title =
+    `${p.name} | CozyPops`;
+
+  const s =
+    stockState(p);
+
+
+  el.innerHTML = `
+
+    <div>
+
+      <a
+        class="back"
+        href="${isDIY ? "diy.html" : "shop.html"}"
+      >
+        ← Back to ${isDIY ? "CozyPops DIY" : "shop"}
+      </a>
+
+
+      <div class="gallery-main">
+
+        <img
+          id="mainImg"
+          src="${p.images[0]}"
+          alt="${p.name}"
+        >
+
+      </div>
+
+
+      <div class="thumbs">
+
+        ${p.images
+          .map(
+            (im, i) => `
+
+              <button
+                class="thumb ${i === 0 ? "active" : ""}"
+                data-img="${im}"
+              >
+
+                <img
+                  src="${im}"
+                  alt="${p.name} view ${i + 1}"
+                >
+
+              </button>
+
+            `,
+          )
+          .join("")}
+
+      </div>
+
+    </div>
+
+
+    <div class="detail-meta">
+
+      <div
+        class="badges"
+        style="position:static"
+      >
+        ${
+          isDIY
+            ? '<span class="badge">🎨 CozyPops DIY</span>'
+            : badges(p)
+        }
+      </div>
+
+
+      <h1>
+        ${p.name}
+      </h1>
+
+
+      <div>
+
+        <span class="big-price">
+          ${money(p.price)}
+        </span>
+
+        <span class="pill-stock">
+          ${s.txt}
+        </span>
+
+      </div>
+
+
+      <p class="muted">
+        Category:
+        <strong>${p.cat}</strong>
+      </p>
+
+
+      <p class="detail-desc">
+        ${p.desc}
+      </p>
+
+
+      <div class="order-box">
+
+        <h3>
+          ✈️ Interested? Order on Telegram
+        </h3>
+
+        <p>
+          Send me a screenshot or the name of the
+          ${isDIY ? "DIY item" : "squishy"} you want ♡
+        </p>
+
+        <a
+          class="telegram-btn"
+          target="_blank"
+          href="${CONFIG.telegramUrl}"
+        >
+          ✈️ 💌 Order on Telegram
+        </a>
+
+      </div>
+
+    </div>
+
+  `;
+
+
+  qsa(".thumb").forEach((t) => {
+
+    t.onclick = () => {
+
+      qs("#mainImg").src =
+        t.dataset.img;
+
+
+      qsa(".thumb").forEach((x) =>
+        x.classList.remove("active"),
+      );
+
+
+      t.classList.add("active");
+
+    };
+
+  });
+
+
   renderProductReviews(p);
+
   renderRelated(p);
 }
 function renderProductReviews(p) {
@@ -253,12 +483,58 @@ function renderProductReviews(p) {
   draw();
 }
 function renderRelated(p) {
-  const box = qs("#relatedProducts");
+
+  const box =
+    qs("#relatedProducts");
+
   if (!box) return;
-  box.innerHTML = P.filter((x) => x.id !== p.id && (x.cat === p.cat || x.viral))
-    .slice(0, 4)
-    .map(productCard)
-    .join("");
+
+
+  const isDIY =
+    DIY.some((x) => x.id === p.id);
+
+
+  const pool =
+    isDIY
+      ? DIY
+      : P;
+
+
+  let related;
+
+
+  if (isDIY) {
+
+    related =
+      pool
+        .filter(
+          (x) => x.id !== p.id,
+        )
+        .slice(0, 4);
+
+  } else {
+
+    related =
+      pool
+        .filter(
+          (x) =>
+            x.id !== p.id &&
+            (
+              x.cat === p.cat ||
+              x.viral
+            ),
+        )
+        .slice(0, 4);
+
+  }
+
+
+  box.innerHTML =
+    related
+      .map(productCard)
+      .join("");
+
+
   observe();
 }
 function showToast(t) {
@@ -268,11 +544,37 @@ function showToast(t) {
   el.classList.add("show");
   setTimeout(() => el.classList.remove("show"), 2400);
 }
-document.addEventListener("DOMContentLoaded", () => {
-  initShell();
-  renderFeatured();
-  renderHomeReviews();
-  shop();
-  detail();
+
+function renderDIYProducts() {
+
+  const box =
+    qs("#diyProducts");
+
+  if (!box) return;
+
+
+  box.innerHTML =
+    DIY
+      .map(productCard)
+      .join("");
+
+
   observe();
+}
+document.addEventListener("DOMContentLoaded", () => {
+
+  initShell();
+
+  renderFeatured();
+
+  renderHomeReviews();
+
+  shop();
+
+  renderDIYProducts();
+
+  detail();
+
+  observe();
+
 });

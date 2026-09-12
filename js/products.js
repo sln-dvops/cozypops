@@ -1285,3 +1285,207 @@ window.COZY_PRODUCTS = [
     "preorder": true
   }
 ];
+
+window.COZY_DIY_PRODUCTS = [
+  {
+    id: "clay",
+    name: "DIY Squishy Clay Base",
+
+    price: 5,
+    "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+
+    cat: "CozyPops DIY",
+
+    desc: "A soft ultra light clay base. Non toxic. Teacher recommend.<br>500g large capacity<br>Available in multi colors<br>Preorder 7-8 days waiting time ♡",
+
+    images: [
+      "assets/products/clay.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+
+  {
+    id: "handmade empty skins",
+    name: "DIY Empty Squishy Skins",
+
+    price: 2,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "A wide variety of squihsy skins.<br> $2 stated in not the actual price. <br>Dm me on telegram for detail prices for each design.<br>Comes in 5 pcs a set.",
+
+    images: [
+      "assets/products/ballskins1.jpg",
+      "assets/products/ballskins.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+  {
+    id: "fillings",
+    name: "DIY Squishy Fillings",
+
+    price: 5,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "A wide variety of multiple design and texture beads collection.<br>$5 stated is not the actual price.<br>Prices vary from one another.<br>Dm me for more details please.",
+
+    images: [
+      "assets/products/mixed-beads.jpg",
+      "assets/products/ball.jpg",
+      "assets/products/oval.jpg",
+      "assets/products/ice.jpg",
+      "assets/products/flower.jpg",
+      "assets/products/daisy.jpg",
+      "assets/products/round.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+  {
+    id: "coconutoil",
+    name: "500g Coocnut Oil Base",
+
+    price: 15,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "Viral coconut oil handmade balls base.<br>6cm balls uses 120g coconutoil.<br>So, we can make 4 6cm balls + 1 small ball.",
+
+    images: [
+      "assets/products/coconutoil.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+  {
+    id: "house glue",
+    name: "Cozypops House Glue Bundle",
+
+    price: 6,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "A must have bundle for squishy lovers. Includes:<br>-50ml Cozypops Glue<br>-2x syringes <br>Strong glue for handmade squishys.<br>Tested and verified by Cozypops.",
+
+    images: [
+      "assets/products/glueset.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+  {
+    id: "storage box",
+    name: "Clear Storage Drawer Box",
+
+    price: 6,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "A must have to keep your DIY place tidy.<br>Transparent smooth drawer storage box for beads<br>Multipurpose product<br>6 Square Grids - $6<br>9 Square Grids - $9<br>12 Square Grids - $11",
+
+    images: [
+      "assets/products/storagebox.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+  {
+    id: "plier",
+    name: "Squishy Opener tool - Plier",
+
+    price: 6,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "A very easy and useful tool for DIY squishys.",
+
+    images: [
+      "assets/products/plier.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+  {
+    id: "pure glycerin",
+    name: "Pure Glycerin - Food grade",
+
+    price: 5,
+   "qty": 0,
+    "badges": [
+      "preorder"
+    ],
+    cat: "CozyPops DIY",
+
+    desc: "A need for those harden squishys.<br>$5 for 100ml pure glycerin.<br>add on +$2 for 2 syringes.",
+
+    images: [
+      "assets/products/glycerin.jpg",
+    ],
+
+    featured: true,
+    viral: false,
+    new: true,
+    preorder: true,
+
+    reviews: 0,
+  },
+];
