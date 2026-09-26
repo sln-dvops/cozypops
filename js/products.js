@@ -54,6 +54,78 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
+    "id": "newseries",
+    "name": "Crunchy New Series",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "So many different design crunchy squishies <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/newsets.jpg",
+      "assets/products/newsets-1.jpg",
+      "assets/products/newsets-2.jpg",
+      "assets/products/newsets-3.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "newseries-2",
+    "name": "Crunchy New Series Part 2",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "So many different design crunchy squishies<br>Giant Crab Claw - $15<br>Others vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/newones-2.jpg",
+      "assets/products/newones-1.jpg",
+      "assets/products/newones.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "newseries-3",
+    "name": "Crunchy New Series Part 3",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "So many different design crunchy squishies<br>Prices vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/newseries.png",
+      "assets/products/newseries-1.png",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
     "id": "snow slushy",
     "name": "Slushy Ice Snow Ball",
     "price": 8,
