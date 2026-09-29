@@ -54,6 +54,28 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
+    "id": "iceberg",
+    "name": "Ice Berge Wax Cracking Balls",
+    "price": 10,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "So many Viral & different design Viral Ice Berge squishys <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/iceberge.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
     "id": "newseries",
     "name": "Crunchy New Series",
     "price": 8,
