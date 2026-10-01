@@ -1,7 +1,7 @@
 window.COZY_PRODUCTS = [
   {
-    "id": "diy set",
-    "name": "NEW DIY Crunchy Squishy kits",
+    "id": "wax-cake",
+    "name": "Crispy Skin Cakes Large",
     "price": 10,
     "qty": 0,
     "cat": "Crunchy",
@@ -9,46 +9,41 @@ window.COZY_PRODUCTS = [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Everything you need to make different types of squishies, all in one kit! 🎨 <br> Perfect for some fun during the holidays 💕<br>💰 Price <br>5 Balls CUTE set — $10<br>9 Balls PLAY set — $16<br>12 Balls DIAMOND set— $22<br>17 Balls SUPREME set— $30 🤯💗 <br> Available for PREORDER wt time 7-8 days",
+    "desc": "So many different design wax cracking cake squishies<br>Prices vary from $8-$12<br> Available for PREORDER wt time 7-8 days",
     "images": [
-      "assets/products/handmadeset-1.jpg",
-      "assets/products/handmadeset-2.jpg",
-      "assets/products/handmadeset-4.jpg",
-      "assets/products/handmadeset-3.jpg",
-      "assets/products/handmadeset-5.jpg",
+      "assets/products/wax-cake.jpg",
+      "assets/products/wax-cake1.jpg",
+      "assets/products/wax-cake-2.jpg",
+      "assets/products/wax-cake3.jpg",
+
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": true,
+    "featured": false,
     "new": true,
     "viral": false,
     "preorder": true
   },
   {
-    "id": "molynk-cake",
-    "name": "*pm for price* Molynk birthday cake squishy",
-    "price": 0,
+    "id": "newseries-4",
+    "name": "Crunchy New Series part-4",
+    "price": 8,
     "qty": 0,
-    "cat": "Food Squishies",
+    "cat": "Crunchy",
     "badges": [
       "preorder"
     ],
     "color": "#c9a7f2",
-    "desc": "Viral Molynk Cake Set<br> Everything is squishy and scented.<br>Perfect for birthday gifts.<br> DM me via telegram or whatsapp for price details <br> Available for PREORDER wt time 7-8 days",
+    "desc": "So many different design crunchy squishies <br> Available for PREORDER wt time 7-8 days",
     "images": [
-      
-      "assets/products/cakee-1.jpg",
-      "assets/products/cakee-2.jpg",
-      "assets/products/cakee-3.jpg",
-      "assets/products/cakee-4.jpg",
-      "assets/products/cakee-5.jpg",
-      "assets/products/cakee-6.jpg",
-      "assets/products/cakee-7.jpg",
+      "assets/products/new-crunch.jpg",
+      "assets/products/new-crunch-1.jpg",
+      "assets/products/new-crunch-3.jpg",
 
     ],
     "rating": 4.6,
     "reviews": 72,
-    "featured": true,
+    "featured": false,
     "new": true,
     "viral": false,
     "preorder": true
@@ -66,6 +61,53 @@ window.COZY_PRODUCTS = [
     "desc": "So many Viral & different design Viral Ice Berge squishys <br> Available for PREORDER wt time 7-8 days",
     "images": [
       "assets/products/iceberge.jpg",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "newseries-3",
+    "name": "Crunchy New Series Part 3",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "So many different design crunchy squishies<br>Prices vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/newseries.png",
+      "assets/products/newseries-1.png",
+
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": false,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "newseries-2",
+    "name": "Crunchy New Series Part 2",
+    "price": 8,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "So many different design crunchy squishies<br>Giant Crab Claw - $15<br>Others vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/newones-2.jpg",
+      "assets/products/newones-1.jpg",
+      "assets/products/newones.jpg",
 
     ],
     "rating": 4.6,
@@ -101,53 +143,6 @@ window.COZY_PRODUCTS = [
     "preorder": true
   },
   {
-    "id": "newseries-2",
-    "name": "Crunchy New Series Part 2",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design crunchy squishies<br>Giant Crab Claw - $15<br>Others vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/newones-2.jpg",
-      "assets/products/newones-1.jpg",
-      "assets/products/newones.jpg",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "newseries-3",
-    "name": "Crunchy New Series Part 3",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design crunchy squishies<br>Prices vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/newseries.png",
-      "assets/products/newseries-1.png",
-
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
     "id": "snow slushy",
     "name": "Slushy Ice Snow Ball",
     "price": 8,
@@ -164,6 +159,31 @@ window.COZY_PRODUCTS = [
       "assets/products/iceball.jpg",
       "assets/products/snowslushy.jpg",
 
+    ],
+    "rating": 4.6,
+    "reviews": 72,
+    "featured": true,
+    "new": true,
+    "viral": false,
+    "preorder": true
+  },
+  {
+    "id": "diy set",
+    "name": "NEW DIY Crunchy Squishy kits",
+    "price": 10,
+    "qty": 0,
+    "cat": "Crunchy",
+    "badges": [
+      "preorder"
+    ],
+    "color": "#c9a7f2",
+    "desc": "Everything you need to make different types of squishies, all in one kit! 🎨 <br> Perfect for some fun during the holidays 💕<br>💰 Price <br>5 Balls CUTE set — $10<br>9 Balls PLAY set — $16<br>12 Balls DIAMOND set— $22<br>17 Balls SUPREME set— $30 🤯💗 <br> Available for PREORDER wt time 7-8 days",
+    "images": [
+      "assets/products/handmadeset-1.jpg",
+      "assets/products/handmadeset-2.jpg",
+      "assets/products/handmadeset-4.jpg",
+      "assets/products/handmadeset-3.jpg",
+      "assets/products/handmadeset-5.jpg",
     ],
     "rating": 4.6,
     "reviews": 72,
