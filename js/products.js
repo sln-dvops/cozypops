@@ -1517,7 +1517,7 @@ window.COZY_DIY_PRODUCTS = [
     ],
     cat: "CozyPops DIY",
 
-    desc: "A must have bundle for squishy lovers. Includes:<br>-50ml Cozypops Glue<br>-2x syringes <br>Strong glue for handmade squishys.<br>Tested and verified by Cozypops.",
+    desc: "A must have bundle for squishy lovers. Includes:<br>50ml Cozypops Glue + 1x syringe ($6)<br>50ml Cozypops Glue + 2x syringe ($8) <br>Strong glue for handmade squishys.<br>Tested and verified by Cozypops.",
 
     images: [
       "assets/products/glueset.jpg",
@@ -1589,7 +1589,7 @@ window.COZY_DIY_PRODUCTS = [
     ],
     cat: "CozyPops DIY",
 
-    desc: "A need for those harden squishys.<br>$5 for 100ml pure glycerin.<br>add on +$2 for 2 syringes.",
+    desc: "A need for those harden squishys.<br>$5 for 100ml pure glycerin.<br>EDITED: add on +$3 for 2 syringes.<br> (due to restricted import for syringes)",
 
     images: [
       "assets/products/glycerin.jpg",
