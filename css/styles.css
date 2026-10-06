@@ -1450,3 +1450,63 @@ footer {
 .diy-products-head > p {
   color: #9a7280;
 }
+/* =========================
+   MARKET SWITCHER
+========================= */
+
+.market-switch {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  padding: 5px 8px;
+
+  border:
+    1px solid #f1d6df;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.82);
+
+  box-shadow:
+    0 5px 16px
+    rgba(119, 62, 84, 0.06);
+}
+
+.market-icon {
+  font-size: 15px;
+}
+
+.market-switch select {
+  width: auto;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #754457;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  padding: 5px 3px;
+}
+
+.market-switch select:focus {
+  box-shadow: none;
+}
+@media (max-width: 900px) {
+
+  .market-switch {
+    margin-left: auto;
+  }
+
+}

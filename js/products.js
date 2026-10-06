@@ -1,1605 +1,3177 @@
 window.COZY_PRODUCTS = [
-  {
-    "id": "wax-cake",
-    "name": "Crispy Skin Cakes Large",
-    "price": 10,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design wax cracking cake squishies<br>Prices vary from $8-$12<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/wax-cake.jpg",
-      "assets/products/wax-cake1.jpg",
-      "assets/products/wax-cake-2.jpg",
-      "assets/products/wax-cake3.jpg",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "newseries-4",
-    "name": "Crunchy New Series part-4",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design crunchy squishies <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/new-crunch.jpg",
-      "assets/products/new-crunch-1.jpg",
-      "assets/products/new-crunch-3.jpg",
+  {
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "iceberg",
-    "name": "Ice Berge Wax Cracking Balls",
-    "price": 10,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many Viral & different design Viral Ice Berge squishys <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/iceberge.jpg",
+    "id": "wax-cake",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "newseries-3",
-    "name": "Crunchy New Series Part 3",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design crunchy squishies<br>Prices vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/newseries.png",
-      "assets/products/newseries-1.png",
+    "name": "Crispy Skin Cakes Large",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "newseries-2",
-    "name": "Crunchy New Series Part 2",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design crunchy squishies<br>Giant Crab Claw - $15<br>Others vary from $7-$8<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/newones-2.jpg",
-      "assets/products/newones-1.jpg",
-      "assets/products/newones.jpg",
+    "price": 10,
+    "priceMMK": 35000,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "newseries",
-    "name": "Crunchy New Series",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "So many different design crunchy squishies <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/newsets.jpg",
-      "assets/products/newsets-1.jpg",
-      "assets/products/newsets-2.jpg",
-      "assets/products/newsets-3.jpg",
+    "qty": 0,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "snow slushy",
-    "name": "Slushy Ice Snow Ball",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi ice snow ball slushy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/iceball-1.jpg",
-      "assets/products/iceball-2.jpg",
-      "assets/products/iceball.jpg",
-      "assets/products/snowslushy.jpg",
+    "cat": "Crunchy",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "diy set",
-    "name": "NEW DIY Crunchy Squishy kits",
-    "price": 10,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Everything you need to make different types of squishies, all in one kit! 🎨 <br> Perfect for some fun during the holidays 💕<br>💰 Price <br>5 Balls CUTE set — $10<br>9 Balls PLAY set — $16<br>12 Balls DIAMOND set— $22<br>17 Balls SUPREME set— $30 🤯💗 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/handmadeset-1.jpg",
-      "assets/products/handmadeset-2.jpg",
-      "assets/products/handmadeset-4.jpg",
-      "assets/products/handmadeset-3.jpg",
-      "assets/products/handmadeset-5.jpg",
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "pooooop",
-    "name": "NEW Crunchy POOP",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Crunchy Poop <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/poop.jpg",
-      "assets/products/poop-1.jpg",
+    "badges": [
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "vaseline butter",
-    "name": "Vaseline Butter",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful butter squishies vaseline texture. <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/vbutter-1.jpg",
-      "assets/products/vbutter-2.jpg",
-      "assets/products/vbutter-3.jpg",
+      "preorder"
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "vaselin-strawberry",
-    "name": "Vaseline Strawberry",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Vaseline textured strawberry <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/vstraw-1.jpg",
-      "assets/products/vstraw-2.jpg",
-      "assets/products/vstraw-3.jpg",
+    ],
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "strawberry",
-    "name": "Color changing strawberry",
-    "price": 6,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Color changing foam filled strawberry<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/straw-1.jpg",
-      "assets/products/straw-2.jpg",
-      "assets/products/straw-3.jpg",
+    "color": "#c9a7f2",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "putty",
-    "name": "Viral Liquid Glass",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/putty.jpg",
-      "assets/products/putty-1.jpg",
-      "assets/products/putty-2.jpg",
-      "assets/products/putty-3.jpg",
-      "assets/products/glass-3.jpg",
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "spongebob",
-    "name": "Spongebob & Patrick crunchy squishy",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": " Spongebob and Patrick crunchy squishies <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/crunchy-88.jpg",
-      "assets/products/crunchy-888.jpg",
+    "desc": "So many different design wax cracking cake squishies\<br>Prices vary from $8-$12\<br> Available for PREORDER wt time 7-8 days",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },{
-    "id": "slushy cube",
-    "name": "Slushy cheese cube",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi slushy texture cheese cube squishies<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/slushycube.jpg",
+    "images": [
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "colorful-vaseline",
-    "name": "Colourful Vaseline Cheese",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi colour vaseline cheese squishies<br>5cm - $8<br>7cm - $10 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/vcheese-0.jpg",
-      "assets/products/vcheese-1.jpg",
-      "assets/products/vcheese-3.jpg",
-      "assets/products/vcheese-4.jpg",
-      "assets/products/vcheese-5.jpg",
+      "assets/products/wax-cake.jpg",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "miffy",
-    "name": "MIFFY slow rise",
-    "price": 6,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Cute Miffy Slowrise Squishies for $6 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/miffy-1.jpg",
-      "assets/products/miffy-2.jpg",
+      "assets/products/wax-cake1.jpg",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": true,
-    "viral": false,
-    "preorder": true
-  },
-  
-  {
-    "id": "crunchys6",
-    "name": "$6 Viral Crunchy Squishies Multi Color & Design",
-    "price": 6,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $6 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/6crunchys-0.jpg",
-            "assets/products/6crunchys-1.jpg",
-      "assets/products/6crunchys-2.jpg",
-      "assets/products/6crunchys-3.jpg",
-      "assets/products/pudding-1.jpg"
+      "assets/products/wax-cake-2.jpg",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  
-  {
-    "id": "crunchys7",
-    "name": "$7 Viral Crunchy Squishies Multi Color & Design",
-    "price": 7,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $7 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/crunchys-1.jpg",
-      "assets/products/soap-2.jpg",
-      "assets/products/crunchys-2.jpg",
-      "assets/products/crunchys-3.jpg"
+      "assets/products/wax-cake3.jpg",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "crunchys8",
-    "name": "$8 Viral Crunchy Squishies Multi Color & Design",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi crunchy squishies for $8 <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/8crunchys-0.jpg",
-      "assets/products/8crunchys-01.jpg"
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "pearl",
-    "name": "Shiny pearl coconut oil balls",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi color pearl coconut oil balls <br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/pearl.jpg",
-      "assets/products/pearl-4.jpg",
-      "assets/products/pearl-2.jpg",
-      "assets/products/pearl-3.jpg",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "cheeseball",
-    "name": "10 cm fluid Cheese Balls",
-    "price": 6,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Colourful multi fluid cheese balls<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/cheeseball-1.jpg",
-      "assets/products/cheeseball-2.jpg",
-      "assets/products/cheeseball-3.jpg",
-      "assets/products/cheeseball-4.jpg",
+    ],
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "brain",
-    "name": "Giant Brain Foam Squishy",
-    "price": 12,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Giant Brain Foam Squishy <br>Preorder Available, wt time 7-8 days",
-    "images": [
-      "assets/products/brain-1.jpg",
-      "assets/products/brain-2.jpg",
-      "assets/products/brain-3.jpg",
-      "assets/products/brain-4.jpg",
+    "rating": 4.6,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "jumbo",
-    "name": "14-45cm Jumbo Fruit Squishies",
-    "price": 14,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "$14-$20 Price Range Price may vary from each item.<br>Please dm me for more details.<3",
-    "images": [
-      "assets/products/jumbofruits-1.jpg"
+    "reviews": 72,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "pineapple",
-    "name": "Large Pineapple Bun",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Viral Large Pineapple Bun <br>Preorder Available, wt time 7-8 days<br>Available in pink as well.",
-    "images": [
-      "assets/products/pineapple-1.jpg",
-      "assets/products/pineapple-2.jpg",
+    "featured": false,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "ballset",
-    "name": "$8 for a pack of 6 different squishy balls (3-4cm)",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "2 packs for $15 different textured handmade balls.<br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
-    "images": [
-      "assets/products/ballset-1.jpg",
-      "assets/products/ballset-2.jpg",
-      "assets/products/ballset-5.jpg",
-      "assets/products/ballset-6.jpg",
+    "new": true,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-    {
-    "id": "crispball",
-    "name": "Random Color Crispy Balls ( comes with air pump )",
-    "price": 3.5,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "** Minimum Order - 2 balls to get the air pump ** <br>Crispy moldable balls <br>Preorder Available, wt time 7-8 days<br> Random Colour <3",
-    "images": [
-      "assets/products/crispball-1.jpg",
-      "assets/products/crispball-2.jpg",
-      "assets/products/crispball-3.jpg",
-      "assets/products/crispball-4.jpg",
+    "viral": false,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-    {
-    "id": "crispfruits",
-    "name": "Moozy Brand Slow rise dry fruits squishy",
-    "price": 6.5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Moozy Dry Fruits Squishy slow risinig satisfied <br>Preorder Available, wt time 7-8 days<br>Available in 4 fruits as shown <3<br>Strawberry 🍓 Banana 🍌 Pineapple 🍍 Apple 🍎 Green apple 🍏 ",
-    "images": [
-      "assets/products/6-slowrise-0.jpg",
-      "assets/products/6-slowrise-1.jpg",
-      "assets/products/6-slowrise-2.jpg",
-      "assets/products/6-slowrise-3.jpg",
-      "assets/products/6-slowrise-4.jpg",
+    "preorder": true
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "cheese-cake",
-    "name": "2 for $5 mini cheese cake",
-    "price": 5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Scented, cute and soft slow rise mini cheese cake !!<br>Preorder Available, wt time 7-8 days<br>Please dm me for more details <3",
-    "images": [
-      "assets/products/cheesecake.jpg",
-      "assets/products/cheesecake-1.jpg",
+  },
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "slowrise-breads",
-    "name": "$8-$12 Slow Rise Squishy Brands",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Sweet, Cute and soft slow rise squishies!!<br>Preorder Available, wt time 7-8 days<br>Please dm me for more details <3",
-    "images": ["assets/products/10-slowrise-01.jpg",
-      "assets/products/10-slowrise-6.jpg",
-      "assets/products/10-slowrise-0.jpg",
-      
-      "assets/products/10-slowrise-5.jpg",
-      "assets/products/10-slowrise-7.jpg",
-      "assets/products/10-slowrise-8.jpg",
-      "assets/products/10-slowrise-9.jpg"
+  {
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "chinasmush",
-    "name": "Big Mouth China Smushers",
-    "price": 6,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Big Mouth ChinaSmushers <br>Preorder Available, wt time 7-8 days<br>Available in 4 colors<3<br>- white- yellow- blue- pink",
-    "images": [
-      "assets/products/chinasmush-1.jpg",
-      "assets/products/chinasmush-2.jpg",
-      "assets/products/chinasmush-3.jpg",
-      "assets/products/chinasmush-4.jpg",
-      "assets/products/chinasmush-5.jpg",
-      "assets/products/chinasmush-6.jpg"
+    "id": "newseries-4",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "smushers-high-quality",
-    "name": "Smushers",
-    "price": 8.0,
-    "qty": 0,
-    "cat": "Animals",
-    "badges": [
-      "viral",
-      "new"
-    ],
-    "color": "#ff8fb3",
-    "desc": "Viral Smushers Squishies <br> Note that this is the high quality copy of the real product.<br> So it may differ from the real ones. <br> Available only 2 quantities each design, so grab yours now.",
-    "images": [
-      "assets/products/smushers-1.jpeg",
-      "assets/products/smushers-2.jpeg",
-      "assets/products/smushers-3.jpeg",
-      "assets/products/smushers-4.jpeg",
-      "assets/products/smushers-5.jpeg",
-      "assets/products/smushers-6.jpeg"
-    ],
-    "rating": 0,
-    "reviews": 0,
-    "featured": false,
-    "new": true,
-    "viral": true,
-    "preorder": false
-  },
-  {
-    "id": "crunchy-cheese",
-    "name": "Viral Crunchy Cheese 7cm",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "Preorder"
-    ],
-    "color": "#d6a45e",
-    "desc": "*SOLD* Preorder Available Crunchy cheese squishy with a textured shell and satisfying squeeze.",
-    "images": [
-      "assets/products/8crunchys-4.jpg"
-    ],
-    "rating": 4.8,
-    "reviews": 30,
-    "featured": false,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "soap-crunchy",
-    "name": "Viral Crunchy Soap",
-    "price": 7,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": ["Preorder"],
-    "color": "#e8b46c",
-    "desc": "Oversized fluffy toast squishy for slow, satisfying squeezes.",
-    "images": [
-      "assets/products/soap-2.jpg",
-      "assets/products/soap-1.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 36,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "vaselinecheese",
-    "name": "Viral Vaseline Cheese",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Soft Vaseline Texture Cheese <br> Available for PREORDER wt time 7-8 days<br>Small($8)<br>Big ($11)<br>- Pink Cheese<br>- Yellow Cheese ",
-    "images": [
-      "assets/products/vaselinecheese-2.jpg",
-      "assets/products/vaselinecheese-1.jpg",
-      "assets/products/vaselinecheese-3.jpg",
-      "assets/products/vaselinecheese-4.jpg",
-      "assets/products/vaselinecheese-5.jpg",
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "coconutoil-ball",
-    "name": "Viral Coconut Oil Ball Collection",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Viral Moldable Coconut Oil Ball Squishy Multicolor<br> Available for PREORDER wt time 7-8 days<br>- Multi Colors and Designs available<br>Dm me for more details",
-    "images": [
-      "assets/products/coconutoilball.jpg",
-      "assets/products/coconutoilball-1.jpg",
-      "assets/products/coconutoilball-3.jpg",
-      "assets/products/coconutoilball-4.jpg",
-      "assets/products/coconutoilball-5.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "slushball",
-    "name": "2 for $15 Slushy Ball Collections",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "2 for $15 viral Slushy Balls <br> Available for PREORDER wt time 7-8 days<br>- Kiwi<br>- Watermelon<br>- Passion Fruit ",
-    "images": [
-      "assets/products/slushball-1.jpg",
-      "assets/products/slushball-2.jpg",
-      "assets/products/slushball-3.jpg",
-      "assets/products/slushball-4.jpg",
-      "assets/products/slushball-5.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "burger",
-    "name": "Sticky, Peelable Realistic Burgers Boxed",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Slow rise, Sticky, Peelable Burgers<br>( The seeds may fall off while playing )<br> Prices vary from different designs. <br>Preorder Available, wt time 7-8 days<br>Available in different designs as shown <3",
-    "images": [
-      "assets/products/burger-1.jpg",
-      "assets/products/burger-2.jpg",
-      "assets/products/burger-3.jpg",
-      "assets/products/burger-4.jpg",
-      "assets/products/burger-5.jpg",
+    "name": "Crunchy New Series part-4",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "bakery",
-    "name": "Realistic Bakery Slow Rise Squishies",
-    "price": 6,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Realistic Slow Rise Squishies Scented <br>Preorder Available, wt time 7-8 days<br>",
-    "images": [
-      "assets/products/bakery-1.jpg",
-      "assets/products/bakery-2.jpg",
-      "assets/products/bakery-3.jpg",
-      "assets/products/bakery-4.jpg",
+    "price": 8,
+    "priceMMK": 30000,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "snowball",
-    "name": "Frozen snow sound 6cm sugar stress ball",
-    "price": 8,
-    "qty": 0,
-    "cat": "Crunchy",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Frozen snow sound sugar stress ball 6 cm<br>Preorder Available, wt time 7-8 days",
-    "images": [
-      "assets/products/snow-1.jpg",
-      "assets/products/snow-2.jpg",
-      "assets/products/snow-3.jpg"
+    "qty": 0,
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "jellyfruit",
-    "name": "Fruit Jelly Bar",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "2 packs for $15 different textured handmade balls.<br>Preorder Available, wt time 7-8 days<br>Available in 3 pack designs as shown <3",
-    "images": [
-      "assets/products/fruitjelly-1.jpg",
-      "assets/products/fruitjelly-5.jpg",
-      "assets/products/fruitjelly-6.jpg",
-      "assets/products/fruitjelly-4.jpg",
-      "assets/products/fruitjelly-3.jpg",
+    "cat": "Crunchy",
 
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "squishy-cake-box",
-    "name": "Squishy Cake Box",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#ffb2c9",
-    "desc": "Squishy cake in a cute box. Slow rise, scented & sticky style.",
-    "images": [
-      "assets/products/cakes-pink.jpg",
-      "assets/products/cakes-blue.jpeg",
-      "assets/products/cakes-yellow.jpg",
-      "assets/products/cakes-purple.jpg",
-      "assets/products/cakes.jpg",
-    ],
-    "rating": 4.6,
-    "reviews": 24,
-    "featured": true,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "toast",
-    "name": "Toasty Squishy",
-    "price": 5.5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#ff9ea8",
-    "desc": "Sweet strawberry cake squishy with soft whipped-cream details.",
-    "images": [
-      "assets/products/toast-2.jpeg",
-      "assets/products/toast-1.jpg",
-      "assets/products/toast-3.jpg"
-    ],
-    "rating": 4.7,
-    "reviews": 27,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-teaparty",
-    "name": "Hachimi Tea Party Blind Box",
-    "price": 5.50,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Blind Box Tea party themed<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/teaparty-1.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-soap",
-    "name": "Hachimi Slow Rise Soap",
-    "price": 6.90,
-    "qty": 0,
-    "cat": "",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Viral Hachimi Japanese Brand Soft Slow rise Soap <br> Available for PREORDER wt time 7-8 days<br>- White <br>- Pink<br>- Blue ",
-    "images": [
-      "assets/products/hasoap-1.jpg",
-      "assets/products/hasoap-2.jpg",
-      "assets/products/soap-3.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-seal",
-    "name": "Hachimi Viral Seal Squishy",
-    "price": 6.9,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "ViralHachimi Japanese Brand Soft Slow rise Seal<br> Available for PREORDER wt time 7-8 days<br>- White <br>- Pinkbr>- Blue<br> Large Seal - $8.90<br>Baby Seal- $6.90 ",
-    "images": [
-      "assets/products/seal-1.jpg",
-      "assets/products/seal-2.jpg",
-      "assets/products/seal-4.jpg",
-      "assets/products/seal-6.jpg",
-      "assets/products/seal-9.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": true,
-    "new": false,
-    "viral": true,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-dumpling",
-    "name": "Hachimi Cute Dumpling",
-    "price": 7,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Cute dumpling<br> Available for PREORDER wt time 7-8 days",
-    "images": [
-      "assets/products/dump-1.jpg",
-      "assets/products/dump-2.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-oreo",
-    "name": "Hachimi Giant Oreo",
-    "price": 10.90,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Oreo Cookie <br> Available for PREORDER wt time 7-8 days ",
-    "images": [
-      "assets/products/oreo-1.jpg",
-      "assets/products/oreo-2.jpg",
-      "assets/products/oreo-3.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "butter",
-    "name": "Butter Squishy Slow Rise",
-    "price": 5.50,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Butter Stick Extra Large & Small <br> Available for PREORDER wt time 7-8 days<br>- small butter stick ($5.50) <br>- Jumbo Butter Stick ($11) ",
-    "images": [
-      "assets/products/butter-1.jpg",
-      "assets/products/butter-2.jpg",
-      "assets/products/butter-3.jpg",
-      "assets/products/butter-4.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-smallbun",
-    "name": "Hachimi Small Buns Collection",
-    "price": 5.50,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise small buns collection<br> Available for PREORDER wt time 7-8 days<br>- Milk<br>- Chocolate<br>- Strawberry<br>- Soy Bean",
-    "images": [
-      "assets/products/bun-1.jpg",
-      "assets/products/bun-2.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-bigbun",
-    "name": "Hachimi Extra Large Buns Collection",
-    "price": 10.90,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Extra Large Hachimi Soft Slow rise Buns <br> Available for PREORDER wt time 7-8 days<br>- Milk<br>- Strawberry<br>- Chocolate<br>- Soybean<br>- Milk Crisp, etc",
-    "images": [
-      "assets/products/bigbun-1.jpg",
-      "assets/products/bigbun-2.jpg",
-      "assets/products/bigbun-3.jpg",
-      "assets/products/bigbun-4.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-    {
-    "id": "hachimi-milkchoc",
-    "name": "Hachimi Milk Chocolate",
-    "price": 5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Milk Chocolate Ice-cream <br> Available for PREORDER wt time 7-8 days<br>- Milk Chocolate<br>- Sea salt Milk ",
-    "images": [
-      "assets/products/milkchoc-1.jpg",
-      "assets/products/milkchoc-2.jpg",
-      "assets/products/milkchoc-3.jpg",
-      "assets/products/milkchoc-4.jpg",
-      "assets/products/milkchoc-5.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-bar",
-    "name": "Hachimi Flavors Bar",
-    "price": 5,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Flavors Bar <br> Available for PREORDER wt time 7-8 days <br>- Original Milk Bar<br>- Yellow Milk Bar<br>- Chocolate Bar<br>- Strawberry Bar",
-    "images": [
-      "assets/products/milkbar-1.jpg",
-      "assets/products/milkbar-2.jpg",
-      "assets/products/milkbar-3.jpg",
-      "assets/products/milkbar-4.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-cookie",
-    "name": "Hachimi Sandwish Cookie",
-    "price": 10,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "Hachimi Japanese Brand Soft Slow rise Sandwish Cookie <br> Available for PREORDER wt time 7-8 days <br>- Dark Colored Sandwish Cookie<br>- Light Colored Sandwish Cookie<br>- Blue Sandwish",
-    "images": [
-      "assets/products/sandwish-1.jpg",
-      "assets/products/sandwish-2.jpg",
-      "assets/products/sandwish-3.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-icecream",
-    "name": "Hachimi Ice-cream Squishy",
-    "price": 6,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#f0c99f",
-    "desc": "<2 for $11> Hachimi Japanese Brand Soft Slow rise ice-cream squishy <br> Available for PREORDER wt time 7-8 days <br>- Strawberry<br>- Chocolate<br>- Milk",
-    "images": [
-      "assets/products/icecream-1.jpg",
-      "assets/products/icecream-2.jpg",
-      "assets/products/icecream-3.jpg",
-      "assets/products/icecream-4.jpg"
-    ],
-    "rating": 4.8,
-    "reviews": 66,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-loaf",
-    "name": "Hachimi Small Bread Loaf Squishy",
-    "price": 6,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#f0c99f",
-    "desc": "<2 for $11> Hachimi Japanese Brand Soft Slow rise bread loaf squishy <br> Available for PREORDER wt time 7-8 days <br>- Strawberry<br>- Chocolate<br>- Milk",
-    "images": [
-      "assets/products/loaf-1.jpg",
-      "assets/products/loaf-2.jpg",
-      "assets/products/loaf-3.jpg",
-      "assets/products/loaf-4.jpg"
-    ],
-    "rating": 4.8,
-    "reviews": 66,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-bigloaf",
-    "name": "Hachimi Extra Large Loaf Squishy",
-    "price": 16,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#f0c99f",
-    "desc": "Extra Large Hachimi Japanese Brand Soft Slow rise squishy <br> Available for PREORDER wt time 7-8 days <br>- Strawberry<br>- Chocolate<br>- Milk",
-    "images": [
-      "assets/products/bigloaf-1.jpg",
-      "assets/products/bigloaf-2.jpg",
-      "assets/products/bigloaf-3.jpg",
-      "assets/products/bigloaf-4.jpg"
-    ],
-    "rating": 4.8,
-    "reviews": 66,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  },
-  {
-    "id": "hachimi-bread",
-    "name": "Hachimi Bread",
-    "price": 8,
-    "qty": 0,
-    "cat": "Food Squishies",
-    "badges": [
-      "preorder"
-    ],
-    "color": "#c9a7f2",
-    "desc": "<2 for $15> Hachimi Japanese Brand Soft Slow rise Bread <br> Available for PREORDER wt time 7-8 days <br>- Oreo<br>- Sea Salt<br>- Brown Sugar<br>- Coffee<br>- Peach<br>- Purple",
-    "images": [
-      "assets/products/habread-1.jpg",
-      "assets/products/habread-2.jpg",
-      "assets/products/habread-3.jpg"
-    ],
-    "rating": 4.6,
-    "reviews": 72,
-    "featured": false,
-    "new": false,
-    "viral": false,
-    "preorder": true
-  }
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "So many different design crunchy squishies \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/new-crunch.jpg",
+
+      "assets/products/new-crunch-1.jpg",
+
+      "assets/products/new-crunch-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "iceberg",
+
+    "name": "Ice Berge Wax Cracking Balls",
+
+    "price": 10,
+    "priceMMK": 35000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "So many Viral & different design Viral Ice Berge squishys \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/iceberge.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "newseries-3",
+
+    "name": "Crunchy New Series Part 3",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "So many different design crunchy squishies\<br>Prices vary from $7-$8\<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/newseries.png",
+
+      "assets/products/newseries-1.png",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "newseries-2",
+
+    "name": "Crunchy New Series Part 2",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "So many different design crunchy squishies\<br>Giant Crab Claw - $15 (50,000 ks)<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/newones-2.jpg",
+
+      "assets/products/newones-1.jpg",
+
+      "assets/products/newones.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "newseries",
+
+    "name": "Crunchy New Series",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "So many different design crunchy squishies \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/newsets.jpg",
+
+      "assets/products/newsets-1.jpg",
+
+      "assets/products/newsets-2.jpg",
+
+      "assets/products/newsets-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "snow slushy",
+
+    "name": "Slushy Ice Snow Ball",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi ice snow ball slushy squishies for $8 \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/iceball-1.jpg",
+
+      "assets/products/iceball-2.jpg",
+
+      "assets/products/iceball.jpg",
+
+      "assets/products/snowslushy.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "diy set",
+
+    "name": "NEW DIY Crunchy Squishy kits",
+
+    "price": 10,
+    "priceMMK": 35000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Everything you need to make different types of squishies, all in one kit! 🎨 \<br> Perfect for some fun during the holidays 💕\<br>💰 Price \<br>5 Balls CUTE set — $10\<br>9 Balls PLAY set — $16\<br>12 Balls DIAMOND set— $22\<br>17 Balls SUPREME set— $30 🤯💗 \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/handmadeset-1.jpg",
+
+      "assets/products/handmadeset-2.jpg",
+
+      "assets/products/handmadeset-4.jpg",
+
+      "assets/products/handmadeset-3.jpg",
+
+      "assets/products/handmadeset-5.jpg",
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "pooooop",
+
+    "name": "NEW Crunchy POOP",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Crunchy Poop \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/poop.jpg",
+
+      "assets/products/poop-1.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "vaseline butter",
+
+    "name": "Vaseline Butter",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful butter squishies vaseline texture. \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/vbutter-1.jpg",
+
+      "assets/products/vbutter-2.jpg",
+
+      "assets/products/vbutter-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "vaselin-strawberry",
+
+    "name": "Vaseline Strawberry",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Vaseline textured strawberry \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/vstraw-1.jpg",
+
+      "assets/products/vstraw-2.jpg",
+
+      "assets/products/vstraw-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "strawberry",
+
+    "name": "Color changing strawberry",
+
+    "price": 6,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Color changing foam filled strawberry\<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/straw-1.jpg",
+
+      "assets/products/straw-2.jpg",
+
+      "assets/products/straw-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "spongebob",
+
+    "name": "Spongebob & Patrick crunchy squishy",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": " Spongebob and Patrick crunchy squishies \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/crunchy-88.jpg",
+
+      "assets/products/crunchy-888.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },{
+
+    "id": "slushy cube",
+
+    "name": "Slushy cheese cube",
+
+    "price": 8,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi slushy texture cheese cube squishies\<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/slushycube.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "colorful-vaseline",
+
+    "name": "Colourful Vaseline Cheese Good Quality",
+
+    "price": 10,
+    "priceMMK": 25000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi colour vaseline cheese squishies\<br>5cm - $8 (25,000ks)\<br>7cm - $10(30,000ks) \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/vcheese-0.jpg",
+
+      "assets/products/vcheese-1.jpg",
+
+      "assets/products/vcheese-3.jpg",
+
+      "assets/products/vcheese-4.jpg",
+
+      "assets/products/vcheese-5.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "miffy",
+
+    "name": "MIFFY slow rise",
+
+    "price": 6,
+    "priceMMK": 18000,
+
+    "qty": 0,
+
+    "cat": "Animals",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Cute Miffy Slowrise Squishies for $6 \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/miffy-1.jpg",
+
+      "assets/products/miffy-2.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+
+
+  {
+
+    "id": "crunchys6",
+
+    "name": "Viral Crunchy Squishies Multi Color & Design",
+
+    "price": 6,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi crunchy squishies for $6 \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/6crunchys-0.jpg",
+
+            "assets/products/6crunchys-1.jpg",
+
+      "assets/products/6crunchys-2.jpg",
+
+      "assets/products/6crunchys-3.jpg",
+
+      "assets/products/pudding-1.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+
+
+  {
+
+    "id": "crunchys7",
+
+    "name": "Viral Crunchy Squishies Multi Color & Design",
+
+    "price": 7,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi crunchy squishies for $7 \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/crunchys-1.jpg",
+
+      "assets/products/soap-2.jpg",
+
+      "assets/products/crunchys-2.jpg",
+
+      "assets/products/crunchys-3.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "crunchys8",
+
+    "name": "$8 Viral Crunchy Squishies Multi Color & Design",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi crunchy squishies for $8 \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/8crunchys-0.jpg",
+
+      "assets/products/8crunchys-01.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "pearl",
+
+    "name": "Shiny pearl coconut oil balls",
+
+    "price": 8,
+    "priceMMK": 25000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi color pearl coconut oil balls \<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/pearl.jpg",
+
+      "assets/products/pearl-4.jpg",
+
+      "assets/products/pearl-2.jpg",
+
+      "assets/products/pearl-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "cheeseball",
+
+    "name": "10 cm fluid Cheese Balls",
+
+    "price": 6,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Colourful multi fluid cheese balls\<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/cheeseball-1.jpg",
+
+      "assets/products/cheeseball-2.jpg",
+
+      "assets/products/cheeseball-3.jpg",
+
+      "assets/products/cheeseball-4.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "brain",
+
+    "name": "Giant Brain Foam Squishy",
+
+    "price": 12,
+    "priceMMK": 40000,
+
+    "qty": 0,
+
+    "cat": "Animals",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Giant Brain Foam Squishy \<br>Preorder Available, wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/brain-1.jpg",
+
+      "assets/products/brain-2.jpg",
+
+      "assets/products/brain-3.jpg",
+
+      "assets/products/brain-4.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "jumbo",
+
+    "name": "14-45cm Jumbo Fruit Squishies",
+
+    "price": 14,
+    "priceMMK": 40000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "$14-$20 Price Range Price may vary from each item.\<br>Please dm me for more details.<3",
+
+    "images": [
+
+      "assets/products/jumbofruits-1.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "pineapple",
+
+    "name": "Large Pineapple Bun",
+
+    "price": 6,
+    "priceMMK": 25000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Viral Large Pineapple Bun \<br>Preorder Available, wt time 7-8 days\<br>Available in pink as well.",
+
+    "images": [
+
+      "assets/products/pineapple-1.jpg",
+
+      "assets/products/pineapple-2.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "ballset",
+
+    "name": "A pack of 6 different squishy balls (3-4cm)",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "2 packs for $15 different textured handmade balls.\<br>Preorder Available, wt time 7-8 days\<br>Available in 3 pack designs as shown <3",
+
+    "images": [
+
+      "assets/products/ballset-1.jpg",
+
+      "assets/products/ballset-2.jpg",
+
+      "assets/products/ballset-5.jpg",
+
+      "assets/products/ballset-6.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+    {
+
+    "id": "crispball",
+
+    "name": "Random Color Crispy Balls ( comes with air pump )",
+
+    "price": 3.5,
+    "priceMMK": 10000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "\*\* Minimum Order - 2 balls to get the air pump \*\* \<br>Crispy moldable balls \<br>Preorder Available, wt time 7-8 days\<br> Random Colour <3",
+
+    "images": [
+
+      "assets/products/crispball-1.jpg",
+
+      "assets/products/crispball-2.jpg",
+
+      "assets/products/crispball-3.jpg",
+
+      "assets/products/crispball-4.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+    {
+
+    "id": "crispfruits",
+
+    "name": "Moozy Brand Slow rise dry fruits squishy",
+
+    "price": 7,
+    "priceMMK": 25000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Moozy Dry Fruits Squishy slow risinig satisfied \<br>Preorder Available, wt time 7-8 days\<br>Available in 4 fruits as shown <3\<br>Strawberry 🍓 Banana 🍌 Pineapple 🍍 Apple 🍎 Green apple 🍏 ",
+
+    "images": [
+
+      "assets/products/6-slowrise-0.jpg",
+
+      "assets/products/6-slowrise-1.jpg",
+
+      "assets/products/6-slowrise-2.jpg",
+
+      "assets/products/6-slowrise-3.jpg",
+
+      "assets/products/6-slowrise-4.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "slowrise-breads",
+
+    "name": "$8-$12 Slow Rise Squishy Brands",
+
+    "price": 8,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Sweet, Cute and soft slow rise squishies!!\<br>Preorder Available, wt time 7-8 days\<br>Please dm me for more details <3",
+
+    "images": ["assets/products/10-slowrise-01.jpg",
+
+      "assets/products/10-slowrise-6.jpg",
+
+      "assets/products/10-slowrise-0.jpg",
+
+
+
+      "assets/products/10-slowrise-5.jpg",
+
+      "assets/products/10-slowrise-7.jpg",
+
+      "assets/products/10-slowrise-8.jpg",
+
+      "assets/products/10-slowrise-9.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "chinasmush",
+
+    "name": "Big Mouth China Smushers",
+
+    "price": 6,
+    "priceMMK": 25000,
+
+    "qty": 0,
+
+    "cat": "Animals",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Big Mouth ChinaSmushers \<br>Preorder Available, wt time 7-8 days\<br>Available in 4 colors<3\<br>- white- yellow- blue- pink",
+
+    "images": [
+
+      "assets/products/chinasmush-1.jpg",
+
+      "assets/products/chinasmush-2.jpg",
+
+      "assets/products/chinasmush-3.jpg",
+
+      "assets/products/chinasmush-4.jpg",
+
+      "assets/products/chinasmush-5.jpg",
+
+      "assets/products/chinasmush-6.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "smushers-high-quality",
+
+    "name": "Smushers",
+
+    "price": 8.0,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Animals",
+
+    "badges": [
+
+      "viral",
+
+      "new"
+
+    ],
+
+    "color": "#ff8fb3",
+
+    "desc": "Viral Smushers Squishies \<br> Note that this is the high quality copy of the real product.\<br> So it may differ from the real ones. \<br> Available only 2 quantities each design, so grab yours now.",
+
+    "images": [
+
+      "assets/products/smushers-1.jpeg",
+
+      "assets/products/smushers-2.jpeg",
+
+      "assets/products/smushers-3.jpeg",
+
+      "assets/products/smushers-4.jpeg",
+
+      "assets/products/smushers-5.jpeg",
+
+      "assets/products/smushers-6.jpeg"
+
+    ],
+
+    "rating": 0,
+
+    "reviews": 0,
+
+    "featured": false,
+
+    "new": true,
+
+    "viral": true,
+
+    "preorder": false
+
+  },
+
+  {
+
+    "id": "crunchy-cheese",
+
+    "name": "Viral Crunchy Cheese 7cm",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "Preorder"
+
+    ],
+
+    "color": "#d6a45e",
+
+    "desc": "\*SOLD\* Preorder Available Crunchy cheese squishy with a textured shell and satisfying squeeze.",
+
+    "images": [
+
+      "assets/products/8crunchys-4.jpg"
+
+    ],
+
+    "rating": 4.8,
+
+    "reviews": 30,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "soap-crunchy",
+
+    "name": "Viral Crunchy Soap",
+
+    "price": 7,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": ["Preorder"],
+
+    "color": "#e8b46c",
+
+    "desc": "Oversized fluffy toast squishy for slow, satisfying squeezes.",
+
+    "images": [
+
+      "assets/products/soap-2.jpg",
+
+      "assets/products/soap-1.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 36,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "vaselinecheese",
+
+    "name": "Viral Vaseline Cheese",
+
+    "price": 8,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Soft Vaseline Texture Cheese \<br> Available for PREORDER wt time 7-8 days\<br>Small($8)\<br>Big ($11)\<br>- Pink Cheese\<br>- Yellow Cheese ",
+
+    "images": [
+
+      "assets/products/vaselinecheese-2.jpg",
+
+      "assets/products/vaselinecheese-1.jpg",
+
+      "assets/products/vaselinecheese-3.jpg",
+
+      "assets/products/vaselinecheese-4.jpg",
+
+      "assets/products/vaselinecheese-5.jpg",
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "coconutoil-ball",
+
+    "name": "Viral Coconut Oil Ball Collection",
+
+    "price": 8,
+    "priceMMK": 25000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Viral Moldable Coconut Oil Ball Squishy Multicolor\<br> Available for PREORDER wt time 7-8 days\<br>- Multi Colors and Designs available\<br>Dm me for more details",
+
+    "images": [
+
+      "assets/products/coconutoilball.jpg",
+
+      "assets/products/coconutoilball-1.jpg",
+
+      "assets/products/coconutoilball-3.jpg",
+
+      "assets/products/coconutoilball-4.jpg",
+
+      "assets/products/coconutoilball-5.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "slushball",
+
+    "name": "2 for $15 Slushy Ball Collections",
+
+    "price": 8,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "2 for $15 viral Slushy Balls \<br> Available for PREORDER wt time 7-8 days\<br>- Kiwi\<br>- Watermelon\<br>- Passion Fruit ",
+
+    "images": [
+
+      "assets/products/slushball-1.jpg",
+
+      "assets/products/slushball-2.jpg",
+
+      "assets/products/slushball-3.jpg",
+
+      "assets/products/slushball-4.jpg",
+
+      "assets/products/slushball-5.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "burger",
+
+    "name": "Sticky, Peelable Realistic Burgers Boxed",
+
+    "price": 10,
+    "priceMMK": 32000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Slow rise, Sticky, Peelable Burgers\<br>( The seeds may fall off while playing )\<br> Prices vary from different designs. \<br>Preorder Available, wt time 7-8 days\<br>Available in different designs as shown <3",
+
+    "images": [
+
+      "assets/products/burger-1.jpg",
+
+      "assets/products/burger-2.jpg",
+
+      "assets/products/burger-3.jpg",
+
+      "assets/products/burger-4.jpg",
+
+      "assets/products/burger-5.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "bakery",
+
+    "name": "Realistic Bakery Slow Rise Squishies",
+
+    "price": 6,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Realistic Slow Rise Squishies Scented \<br>Preorder Available, wt time 7-8 days\<br>",
+
+    "images": [
+
+      "assets/products/bakery-1.jpg",
+
+      "assets/products/bakery-2.jpg",
+
+      "assets/products/bakery-3.jpg",
+
+      "assets/products/bakery-4.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "snowball",
+
+    "name": "Frozen snow sound 6cm sugar stress ball",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Crunchy",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Frozen snow sound sugar stress ball 6 cm\<br>Preorder Available, wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/snow-1.jpg",
+
+      "assets/products/snow-2.jpg",
+
+      "assets/products/snow-3.jpg"
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "jellyfruit",
+
+    "name": "Fruit Jelly Bar",
+
+    "price": 10,
+    "priceMMK": 32000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "2 packs for $15 different textured handmade balls.\<br>Preorder Available, wt time 7-8 days\<br>Available in 3 pack designs as shown <3",
+
+    "images": [
+
+      "assets/products/fruitjelly-1.jpg",
+
+      "assets/products/fruitjelly-5.jpg",
+
+      "assets/products/fruitjelly-6.jpg",
+
+      "assets/products/fruitjelly-4.jpg",
+
+      "assets/products/fruitjelly-3.jpg",
+
+
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "squishy-cake-box",
+
+    "name": "Squishy Cake Box",
+
+    "price": 5.5,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#ffb2c9",
+
+    "desc": "Squishy cake in a cute box. Slow rise, scented & sticky style.",
+
+    "images": [
+
+      "assets/products/cakes-pink.jpg",
+
+      "assets/products/cakes-blue.jpeg",
+
+      "assets/products/cakes-yellow\.jpg",
+
+      "assets/products/cakes-purple.jpg",
+
+      "assets/products/cakes.jpg",
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 24,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "toast",
+
+    "name": "Toasty Squishy",
+
+    "price": 5.5,
+    "priceMMK": 18000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#ff9ea8",
+
+    "desc": "Sweet strawberry cake squishy with soft whipped-cream details.",
+
+    "images": [
+
+      "assets/products/toast-2.jpeg",
+
+      "assets/products/toast-1.jpg",
+
+      "assets/products/toast-3.jpg"
+
+    ],
+
+    "rating": 4.7,
+
+    "reviews": 27,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-teaparty",
+
+    "name": "Hachimi Tea Party Blind Box",
+
+    "price": 5.50,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Blind Box Tea party themed\<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/teaparty-1.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-soap",
+
+    "name": "Hachimi Slow Rise Soap",
+
+    "price": 6.90,
+    "priceMMK": 22000,
+
+    "qty": 0,
+
+    "cat": "",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Viral Hachimi Japanese Brand Soft Slow rise Soap \<br> Available for PREORDER wt time 7-8 days\<br>- White \<br>- Pink\<br>- Blue ",
+
+    "images": [
+
+      "assets/products/hasoap-1.jpg",
+
+      "assets/products/hasoap-2.jpg",
+
+      "assets/products/soap-3.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-seal",
+
+    "name": "Hachimi Viral Seal Squishy",
+
+    "price": 7,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "ViralHachimi Japanese Brand Soft Slow rise Seal\<br> Available for PREORDER wt time 7-8 days\<br>- White \<br>- Pinkbr>- Blue\<br> Large Seal - $8.90\<br>Baby Seal- $6.90 ",
+
+    "images": [
+
+      "assets/products/seal-1.jpg",
+
+      "assets/products/seal-2.jpg",
+
+      "assets/products/seal-4.jpg",
+
+      "assets/products/seal-6.jpg",
+
+      "assets/products/seal-9.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": true,
+
+    "new": false,
+
+    "viral": true,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-dumpling",
+
+    "name": "Hachimi Cute Dumpling",
+
+    "price": 8,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise Cute dumpling\<br> Available for PREORDER wt time 7-8 days",
+
+    "images": [
+
+      "assets/products/dump-1.jpg",
+
+      "assets/products/dump-2.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-oreo",
+
+    "name": "Hachimi Giant Oreo",
+
+    "price": 10.90,
+    "priceMMK": 38000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise Oreo Cookie \<br> Available for PREORDER wt time 7-8 days ",
+
+    "images": [
+
+      "assets/products/oreo-1.jpg",
+
+      "assets/products/oreo-2.jpg",
+
+      "assets/products/oreo-3.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "butter",
+
+    "name": "Butter Squishy Slow Rise",
+
+    "price": 5.50,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise Butter Stick Extra Large & Small \<br> Available for PREORDER wt time 7-8 days\<br>- small butter stick ($5.50) \<br>- Jumbo Butter Stick ($11) ",
+
+    "images": [
+
+      "assets/products/butter-1.jpg",
+
+      "assets/products/butter-2.jpg",
+
+      "assets/products/butter-3.jpg",
+
+      "assets/products/butter-4.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-smallbun",
+
+    "name": "Hachimi Small Buns Collection",
+
+    "price": 5.50,
+    "priceMMK": 20000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise small buns collection\<br> Available for PREORDER wt time 7-8 days\<br>- Milk\<br>- Chocolate\<br>- Strawberry\<br>- Soy Bean",
+
+    "images": [
+
+      "assets/products/bun-1.jpg",
+
+      "assets/products/bun-2.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-bigbun",
+
+    "name": "Hachimi Extra Large Buns Collection",
+
+    "price": 10.90,
+    "priceMMK": 38000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Extra Large Hachimi Soft Slow rise Buns \<br> Available for PREORDER wt time 7-8 days\<br>- Milk\<br>- Strawberry\<br>- Chocolate\<br>- Soybean\<br>- Milk Crisp, etc",
+
+    "images": [
+
+      "assets/products/bigbun-1.jpg",
+
+      "assets/products/bigbun-2.jpg",
+
+      "assets/products/bigbun-3.jpg",
+
+      "assets/products/bigbun-4.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+    {
+
+    "id": "hachimi-milkchoc",
+
+    "name": "Hachimi Milk Chocolate",
+
+    "price": 8,
+    "priceMMK": 28000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise Milk Chocolate Ice-cream \<br> Available for PREORDER wt time 7-8 days\<br>- Milk Chocolate\<br>- Sea salt Milk ",
+
+    "images": [
+
+      "assets/products/milkchoc-1.jpg",
+
+      "assets/products/milkchoc-2.jpg",
+
+      "assets/products/milkchoc-3.jpg",
+
+      "assets/products/milkchoc-4.jpg",
+
+      "assets/products/milkchoc-5.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-bar",
+
+    "name": "Hachimi Flavors Bar",
+
+    "price": 5,
+    "priceMMK": 16000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise Flavors Bar \<br> Available for PREORDER wt time 7-8 days \<br>- Original Milk Bar\<br>- Yellow Milk Bar\<br>- Chocolate Bar\<br>- Strawberry Bar",
+
+    "images": [
+
+      "assets/products/milkbar-1.jpg",
+
+      "assets/products/milkbar-2.jpg",
+
+      "assets/products/milkbar-3.jpg",
+
+      "assets/products/milkbar-4.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-cookie",
+
+    "name": "Hachimi Sandwish Cookie",
+
+    "price": 10,
+    "priceMMK": 35000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "Hachimi Japanese Brand Soft Slow rise Sandwish Cookie \<br> Available for PREORDER wt time 7-8 days \<br>- Dark Colored Sandwish Cookie\<br>- Light Colored Sandwish Cookie\<br>- Blue Sandwish",
+
+    "images": [
+
+      "assets/products/sandwish-1.jpg",
+
+      "assets/products/sandwish-2.jpg",
+
+      "assets/products/sandwish-3.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-icecream",
+
+    "name": "Hachimi Ice-cream Squishy",
+
+    "price": 6,
+    "priceMMK": 21000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#f0c99f",
+
+    "desc": "<2 for $11> Hachimi Japanese Brand Soft Slow rise ice-cream squishy \<br> Available for PREORDER wt time 7-8 days \<br>- Strawberry\<br>- Chocolate\<br>- Milk",
+
+    "images": [
+
+      "assets/products/icecream-1.jpg",
+
+      "assets/products/icecream-2.jpg",
+
+      "assets/products/icecream-3.jpg",
+
+      "assets/products/icecream-4.jpg"
+
+    ],
+
+    "rating": 4.8,
+
+    "reviews": 66,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-loaf",
+
+    "name": "Hachimi Small Bread Loaf Squishy",
+
+    "price": 6,
+    "priceMMK": 21000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#f0c99f",
+
+    "desc": "<2 for $11> Hachimi Japanese Brand Soft Slow rise bread loaf squishy \<br> Available for PREORDER wt time 7-8 days \<br>- Strawberry\<br>- Chocolate\<br>- Milk",
+
+    "images": [
+
+      "assets/products/loaf-1.jpg",
+
+      "assets/products/loaf-2.jpg",
+
+      "assets/products/loaf-3.jpg",
+
+      "assets/products/loaf-4.jpg"
+
+    ],
+
+    "rating": 4.8,
+
+    "reviews": 66,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-bigloaf",
+
+    "name": "Hachimi Extra Large Loaf Squishy",
+
+    "price": 16,
+    "priceMMK": 52000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#f0c99f",
+
+    "desc": "Extra Large Hachimi Japanese Brand Soft Slow rise squishy \<br> Available for PREORDER wt time 7-8 days \<br>- Strawberry\<br>- Chocolate\<br>- Milk",
+
+    "images": [
+
+      "assets/products/bigloaf-1.jpg",
+
+      "assets/products/bigloaf-2.jpg",
+
+      "assets/products/bigloaf-3.jpg",
+
+      "assets/products/bigloaf-4.jpg"
+
+    ],
+
+    "rating": 4.8,
+
+    "reviews": 66,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  },
+
+  {
+
+    "id": "hachimi-bread",
+
+    "name": "Hachimi Bread",
+
+    "price": 8,
+    "priceMMK": 30000,
+
+    "qty": 0,
+
+    "cat": "Food Squishies",
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    "color": "#c9a7f2",
+
+    "desc": "<2 for $15> Hachimi Japanese Brand Soft Slow rise Bread \<br> Available for PREORDER wt time 7-8 days \<br>- Oreo\<br>- Sea Salt\<br>- Brown Sugar\<br>- Coffee\<br>- Peach\<br>- Purple",
+
+    "images": [
+
+      "assets/products/habread-1.jpg",
+
+      "assets/products/habread-2.jpg",
+
+      "assets/products/habread-3.jpg"
+
+    ],
+
+    "rating": 4.6,
+
+    "reviews": 72,
+
+    "featured": false,
+
+    "new": false,
+
+    "viral": false,
+
+    "preorder": true
+
+  }
+
 ];
 
+
+
 window.COZY_DIY_PRODUCTS = [
-  {
-    id: "clay",
-    name: "DIY Squishy Clay Base",
 
-    price: 5,
-    "qty": 0,
-    "badges": [
-      "preorder"
-    ],
+  {
 
-    cat: "CozyPops DIY",
+    id: "clay",
 
-    desc: "A soft ultra light clay base. Non toxic. Teacher recommend.<br>500g large capacity<br>Available in multi colors<br>Preorder 7-8 days waiting time ♡",
+    name: "DIY Squishy Clay Base",
 
-    images: [
-      "assets/products/clay.jpg",
-    ],
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
 
-    reviews: 0,
-  },
+    price: 5,
+    priceMMK: 17000,
 
-  {
-    id: "handmade empty skins",
-    name: "DIY Empty Squishy Skins",
+    "qty": 0,
 
-    price: 2,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
+    "badges": [
 
-    desc: "A wide variety of squihsy skins.<br> $2 stated in not the actual price. <br>Dm me on telegram for detail prices for each design.<br>Comes in 5 pcs a set.",
+      "preorder"
 
-    images: [
-      "assets/products/ballskins1.jpg",
-      "assets/products/ballskins.jpg",
-    ],
+    ],
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
 
-    reviews: 0,
-  },
-  {
-    id: "fillings",
-    name: "DIY Squishy Fillings",
 
-    price: 5,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
+    cat: "CozyPops DIY",
 
-    desc: "A wide variety of multiple design and texture beads collection.<br>$5 stated is not the actual price.<br>Prices vary from one another.<br>Dm me for more details please.",
 
-    images: [
-      "assets/products/mixed-beads.jpg",
-      "assets/products/ball.jpg",
-      "assets/products/oval.jpg",
-      "assets/products/ice.jpg",
-      "assets/products/flower.jpg",
-      "assets/products/daisy.jpg",
-      "assets/products/round.jpg",
-    ],
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
+    desc: "A soft ultra light clay base. Non toxic. Teacher recommend.\<br>500g large capacity\<br>Available in multi colors\<br>Preorder 7-8 days waiting time ♡",
 
-    reviews: 0,
-  },
-  {
-    id: "coconutoil",
-    name: "500g Coocnut Oil Base",
 
-    price: 15,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
 
-    desc: "Viral coconut oil handmade balls base.<br>6cm balls uses 120g coconutoil.<br>So, we can make 4 6cm balls + 1 small ball.",
+    images: [
 
-    images: [
-      "assets/products/coconutoil.jpg",
-    ],
+      "assets/products/clay.jpg",
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
+    ],
 
-    reviews: 0,
-  },
-  {
-    id: "house glue",
-    name: "Cozypops House Glue Bundle",
 
-    price: 6,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
 
-    desc: "A must have bundle for squishy lovers. Includes:<br>50ml Cozypops Glue + 1x syringe ($6)<br>50ml Cozypops Glue + 2x syringe ($8) <br>Strong glue for handmade squishys.<br>Tested and verified by Cozypops.",
+    featured: true,
 
-    images: [
-      "assets/products/glueset.jpg",
-    ],
+    viral: false,
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
+    new: true,
 
-    reviews: 0,
-  },
-  {
-    id: "storage box",
-    name: "Clear Storage Drawer Box",
+    preorder: true,
 
-    price: 6,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
 
-    desc: "A must have to keep your DIY place tidy.<br>Transparent smooth drawer storage box for beads<br>Multipurpose product<br>6 Square Grids - $6<br>9 Square Grids - $9<br>12 Square Grids - $11",
 
-    images: [
-      "assets/products/storagebox.jpg",
-    ],
+    reviews: 0,
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
+  },
 
-    reviews: 0,
-  },
-  {
-    id: "plier",
-    name: "Squishy Opener tool - Plier",
 
-    price: 6,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
 
-    desc: "A very easy and useful tool for DIY squishys.",
+  {
 
-    images: [
-      "assets/products/plier.jpg",
-    ],
+    id: "handmade empty skins",
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
+    name: "DIY Empty Squishy Skins",
 
-    reviews: 0,
-  },
-  {
-    id: "pure glycerin",
-    name: "Pure Glycerin - Food grade",
 
-    price: 5,
-   "qty": 0,
-    "badges": [
-      "preorder"
-    ],
-    cat: "CozyPops DIY",
 
-    desc: "A need for those harden squishys.<br>$5 for 100ml pure glycerin.<br>EDITED: add on +$3 for 2 syringes.<br> (due to restricted import for syringes)",
+    price: 2,
+    priceMMK: 2500,
 
-    images: [
-      "assets/products/glycerin.jpg",
-    ],
+   "qty": 0,
 
-    featured: true,
-    viral: false,
-    new: true,
-    preorder: true,
+    "badges": [
 
-    reviews: 0,
-  },
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "A wide variety of squihsy skins.\<br> $2 stated in not the actual price. \<br>Dm me on telegram for detail prices for each design.\<br>Comes in 5 pcs a set.",
+
+
+
+    images: [
+
+      "assets/products/ballskins1.jpg",
+
+      "assets/products/ballskins.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
+  {
+
+    id: "fillings",
+
+    name: "DIY Squishy Fillings",
+
+
+
+    price: 5,
+    priceMMK: 17500,
+
+   "qty": 0,
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "A wide variety of multiple design and texture beads collection.\<br>$5 stated is not the actual price.\<br>Prices vary from one another.\<br>Dm me for more details please.",
+
+
+
+    images: [
+
+      "assets/products/mixed-beads.jpg",
+
+      "assets/products/ball.jpg",
+
+      "assets/products/oval.jpg",
+
+      "assets/products/ice.jpg",
+
+      "assets/products/flower.jpg",
+
+      "assets/products/daisy.jpg",
+
+      "assets/products/round.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
+  {
+
+    id: "coconutoil",
+
+    name: "500g Coocnut Oil Base",
+
+
+
+    price: 15,
+    priceMMK: 52500,
+
+   "qty": 0,
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "Viral coconut oil handmade balls base.\<br>6cm balls uses 120g coconutoil.\<br>So, we can make 4 6cm balls + 1 small ball.",
+
+
+
+    images: [
+
+      "assets/products/coconutoil.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
+  {
+
+    id: "house glue",
+
+    name: "Cozypops House Glue Bundle",
+
+
+
+    price: 6,
+    priceMMK: 25000,
+
+   "qty": 0,
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "A must have bundle for squishy lovers. Includes:\<br>50ml Cozypops Glue + 1x syringe ($6)\<br>50ml Cozypops Glue + 2x syringe ($8) \<br>Strong glue for handmade squishys.\<br>Tested and verified by Cozypops.",
+
+
+
+    images: [
+
+      "assets/products/glueset.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
+  {
+
+    id: "storage box",
+
+    name: "Clear Storage Drawer Box",
+
+
+
+    price: 6,
+    priceMMK: 21000,
+
+   "qty": 0,
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "A must have to keep your DIY place tidy.\<br>Transparent smooth drawer storage box for beads\<br>Multipurpose product\<br>6 Square Grids - $6\<br>9 Square Grids - $9\<br>12 Square Grids - $11",
+
+
+
+    images: [
+
+      "assets/products/storagebox.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
+  {
+
+    id: "plier",
+
+    name: "Squishy Opener tool - Plier",
+
+
+
+    price: 6,
+    priceMMK: 20000,
+
+   "qty": 0,
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "A very easy and useful tool for DIY squishys.",
+
+
+
+    images: [
+
+      "assets/products/plier.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
+  {
+
+    id: "pure glycerin",
+
+    name: "Pure Glycerin - Food grade",
+
+
+
+    price: 5,
+    priceMMK: 17500,
+
+   "qty": 0,
+
+    "badges": [
+
+      "preorder"
+
+    ],
+
+    cat: "CozyPops DIY",
+
+
+
+    desc: "A need for those harden squishys.\<br>$5 for 100ml pure glycerin.\<br>EDITED: add on +$3 for 2 syringes.\<br> (due to restricted import for syringes)",
+
+
+
+    images: [
+
+      "assets/products/glycerin.jpg",
+
+    ],
+
+
+
+    featured: true,
+
+    viral: false,
+
+    new: true,
+
+    preorder: true,
+
+
+
+    reviews: 0,
+
+  },
+
 ];
