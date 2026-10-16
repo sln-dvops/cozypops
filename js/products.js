@@ -1,56 +1,4 @@
 window.COZY_PRODUCTS = [
-
-  {
-
-    "id": "wax-cake",
-
-    "name": "Crispy Skin Cakes Large",
-
-    "price": 10,
-    "priceMMK": 35000,
-
-    "qty": 0,
-
-    "cat": "Crunchy",
-
-    "badges": [
-
-      "preorder"
-
-    ],
-
-    "color": "#c9a7f2",
-
-    "desc": "So many different design wax cracking cake squishies\<br>Prices vary from $8-$12\<br> Available for PREORDER wt time 7-8 days",
-
-    "images": [
-
-      "assets/products/wax-cake.jpg",
-
-      "assets/products/wax-cake1.jpg",
-
-      "assets/products/wax-cake-2.jpg",
-
-      "assets/products/wax-cake3.jpg",
-
-
-
-    ],
-
-    "rating": 4.6,
-
-    "reviews": 72,
-
-    "featured": false,
-
-    "new": true,
-
-    "viral": false,
-
-    "preorder": true
-
-  },
-
   {
 
     "id": "newseries-4",
@@ -541,55 +489,6 @@ window.COZY_PRODUCTS = [
 
   {
 
-    "id": "strawberry",
-
-    "name": "Color changing strawberry",
-
-    "price": 6,
-    "priceMMK": 20000,
-
-    "qty": 0,
-
-    "cat": "Food Squishies",
-
-    "badges": [
-
-      "preorder"
-
-    ],
-
-    "color": "#c9a7f2",
-
-    "desc": "Color changing foam filled strawberry\<br> Available for PREORDER wt time 7-8 days",
-
-    "images": [
-
-      "assets/products/straw-1.jpg",
-
-      "assets/products/straw-2.jpg",
-
-      "assets/products/straw-3.jpg",
-
-
-
-    ],
-
-    "rating": 4.6,
-
-    "reviews": 72,
-
-    "featured": false,
-
-    "new": true,
-
-    "viral": false,
-
-    "preorder": true
-
-  },
-
-  {
-
     "id": "spongebob",
 
     "name": "Spongebob & Patrick crunchy squishy",
@@ -733,60 +632,11 @@ window.COZY_PRODUCTS = [
 
   {
 
-    "id": "miffy",
-
-    "name": "MIFFY slow rise",
-
-    "price": 6,
-    "priceMMK": 18000,
-
-    "qty": 0,
-
-    "cat": "Animals",
-
-    "badges": [
-
-      "preorder"
-
-    ],
-
-    "color": "#c9a7f2",
-
-    "desc": "Cute Miffy Slowrise Squishies for $6 \<br> Available for PREORDER wt time 7-8 days",
-
-    "images": [
-
-      "assets/products/miffy-1.jpg",
-
-      "assets/products/miffy-2.jpg",
-
-
-
-    ],
-
-    "rating": 4.6,
-
-    "reviews": 72,
-
-    "featured": false,
-
-    "new": true,
-
-    "viral": false,
-
-    "preorder": true
-
-  },
-
-
-
-  {
-
     "id": "crunchys6",
 
     "name": "Viral Crunchy Squishies Multi Color & Design",
 
-    "price": 6,
+    "price": 7,
     "priceMMK": 28000,
 
     "qty": 0,
@@ -801,7 +651,7 @@ window.COZY_PRODUCTS = [
 
     "color": "#c9a7f2",
 
-    "desc": "Colourful multi crunchy squishies for $6 \<br> Available for PREORDER wt time 7-8 days",
+    "desc": "Colourful multi crunchy squishies for $7 \<br> Available for PREORDER wt time 7-8 days",
 
     "images": [
 
@@ -1228,58 +1078,6 @@ window.COZY_PRODUCTS = [
     "preorder": true
 
   },
-
-    {
-
-    "id": "crispball",
-
-    "name": "Random Color Crispy Balls ( comes with air pump )",
-
-    "price": 3.5,
-    "priceMMK": 10000,
-
-    "qty": 0,
-
-    "cat": "Crunchy",
-
-    "badges": [
-
-      "preorder"
-
-    ],
-
-    "color": "#c9a7f2",
-
-    "desc": "\*\* Minimum Order - 2 balls to get the air pump \*\* \<br>Crispy moldable balls \<br>Preorder Available, wt time 7-8 days\<br> Random Colour <3",
-
-    "images": [
-
-      "assets/products/crispball-1.jpg",
-
-      "assets/products/crispball-2.jpg",
-
-      "assets/products/crispball-3.jpg",
-
-      "assets/products/crispball-4.jpg",
-
-
-
-    ],
-
-    "rating": 4.6,
-
-    "reviews": 72,
-
-    "featured": false,
-
-    "new": false,
-
-    "viral": false,
-
-    "preorder": true
-
-  },
-
     {
 
     "id": "crispfruits",
@@ -1396,7 +1194,7 @@ window.COZY_PRODUCTS = [
 
     "name": "Big Mouth China Smushers",
 
-    "price": 6,
+    "price": 7,
     "priceMMK": 25000,
 
     "qty": 0,
