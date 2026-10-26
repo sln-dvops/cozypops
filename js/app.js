@@ -314,64 +314,6 @@ function header() {
 
             </nav>
 
-            <div class="market-switch">
-
-
-
-   <span class="market-icon">
-
-      🌏
-
-   </span>
-
-
-
-   <select
-
-      id="marketSelect"
-
-      aria-label="Select country"
-
-   >
-
-
-
-      <option
-
-         value="SG"
-
-         ${CURRENT_MARKET === "SG" ? "selected" : ""}
-
-      >
-
-         🇸🇬 Singapore
-
-      </option>
-
-
-
-      <option
-
-         value="MM"
-
-         ${CURRENT_MARKET === "MM" ? "selected" : ""}
-
-      >
-
-         🇲🇲 Myanmar
-
-      </option>
-
-
-
-   </select>
-
-
-
-</div>
-
-
-
             <a
 
                class="telegram-btn"

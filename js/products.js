@@ -2757,6 +2757,8 @@ window.COZY_DIY_PRODUCTS = [
     images: [
 
       "assets/products/coconutoil.jpg",
+"assets/products/coconutoilchart.jpg",
+"assets/products/coconutoil1.jpg",
 
     ],
 
@@ -2778,9 +2780,9 @@ window.COZY_DIY_PRODUCTS = [
 
   {
 
-    id: "house glue",
+    id: "TPR glue",
 
-    name: "Cozypops House Glue Bundle",
+    name: "TPR Glue",
 
 
 
@@ -2799,13 +2801,13 @@ window.COZY_DIY_PRODUCTS = [
 
 
 
-    desc: "A must have bundle for squishy lovers. Includes:\<br>50ml Cozypops Glue + 1x syringe ($6)\<br>50ml Cozypops Glue + 2x syringe ($8) \<br>Strong glue for handmade squishys.\<br>Tested and verified by Cozypops.",
+    desc: "A must have TPR glue for DIY squishys.",
 
 
 
     images: [
 
-      "assets/products/glueset.jpg",
+      "assets/products/tpr.jpg",
 
     ],
 
